@@ -158,8 +158,54 @@
   bottom: 0;
   left: 0;
 }
+section#position-04 {
+  position: static;
+}
 #position-04 div {
   position: absolute;
   top: 0;
+}
+#position-05 .outer-box:first-child {
+  position: relative;
+  background: lightgray;
+  width: 4rem;
+  height: 4rem;
+  top: 1rem;
+  left: 0;
+}
+#position-05 .outer-box:last-child {
+  position: relative;
+  background: lightgray;
+  width: 4rem;
+  height: 4rem;
+  top: -3rem;
+  left: 20rem;
+}
+#position-05 .inner-box {
+  position: relative;
+  background: darkgray;
+  width: 1rem;
+  height: 1rem;
+  top:1.5rem;
+  left:1.5rem;
+}
+#position-06 div {
+  position: absolute;
+  background: lavender;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#position-07 a {
+  position: fixed;
+  top: 92%;
+  left: 85%;
+  background: grey;
+  padding: 10px;
+}
+#position-07 a:hover {
+  color: green;
 }
 /* All your edits should go here */
