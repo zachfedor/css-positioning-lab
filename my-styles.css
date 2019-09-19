@@ -31,9 +31,18 @@
 	  left:25%;
 	  top:25%;
 	}
+
 #boxmodel-01 div {
 	  width: 50%;
 	  padding: 20px;
 	  border: 10px solid black;
 	  margin-left: 20%;
+	}
+
+#boxmodel-02 div {
+	  box-sizing: border-box;
+	  width: 50%;
+          padding: 20px;
+          border: 10px solid black;
+          margin-left: 20%;
 	}
