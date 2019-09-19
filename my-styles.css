@@ -27,3 +27,16 @@
 #display-04 div:first-child {
   color: white;
 }
+
+#display-05 {
+}
+#display-05 a {
+  display: inline-block;
+  position: absolute;
+  padding-top: 10px;
+  background-color: pink;
+  border: 1px solid pink;
+  width: 50%;
+  left: 25%;
+  top: 25%;
+}
