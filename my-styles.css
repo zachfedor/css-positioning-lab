@@ -1,4 +1,29 @@
 /* Your Stylesheet */
-
+#display-01 div {
+  display: inline;
+  border: thin solid blue;
+  margin: 0px 20px 0px 20px;
+}
+#display-02 span {
+  display: block;
+  border: thin solid red;
+  margin: 0px;
+}
+#display-03 div {
+  display: inline;
+  border: thin solid green;
+  padding: 5px;
+  background: green;
+}
+#display-04 div:first-of-type {
+  display: none;
+}
+#display-05 a {
+  font-size: 4rem;
+  background: grey;
+  padding: 10px 0px 10px 0px;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
 /* All your edits should go here */
-
