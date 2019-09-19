@@ -234,3 +234,20 @@ left: 0px;
 right: 0px;
 bottom: 0px;
 }
+
+#position-07 a {
+
+position: absolute;
+left: 0px;
+bottom: 0px;
+padding: 5px;
+background-color: green;
+margin: 5px;
+
+}
+
+#position-07 a:hover {
+
+background-color: yellow;
+
+}
