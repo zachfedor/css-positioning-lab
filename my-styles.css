@@ -11,7 +11,7 @@
   width: 100%;
 }
 #display-03 div{
-  float:left;
+  display: inline-block;
   border: thin solid green;
   width: 100px;
   height: 100px;
