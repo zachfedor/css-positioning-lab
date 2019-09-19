@@ -202,10 +202,50 @@ section#position-04 {
   position: fixed;
   top: 92%;
   left: 85%;
-  background: grey;
+  background-color: #ffee00;
   padding: 10px;
 }
 #position-07 a:hover {
   color: green;
+}
+section#layout {
+  background: lightgrey;
+}
+#layout nav {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 97%;
+  background: lightblue;
+}
+#layout aside {
+  box-sizing: border-box;
+  float: right;
+  background: forestgreen;
+  color: white;
+  width: 50%;
+  margin: 5px -5rem 5px 5px;
+  padding: 5px;
+  border: solid black;
+}
+#layout a {
+  position: relative;
+  padding: 5px;
+  top: 25%;
+  left: 5%;
+  border: solid blue;
+  margin: 0 -3px;
+}
+#layout footer {
+  position: absolute;
+  margin: 0;
+  top: 97%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: crimson;
+  text-align: center;
 }
 /* All your edits should go here */
