@@ -1,14 +1,22 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
-div {
+#display-01 div {
   display: inline;
   border: thin solid blue;
   margin: 20px;
+
 }
 
-span {
+#display-02 span {
   display: block;
   border: thin solid red;
-  border-width: 100%;
+}
+
+#display-03 div {
+  display: inline-block;
+  border: thin solid green;
+  height: 100px;
+  width: 100px;
+
 }
