@@ -6,3 +6,9 @@ div {
   border: thin solid blue;
   margin: 20px;
 }
+
+span {
+  display: block;
+  border: thin solid red;
+  border-width: 100%;
+}
