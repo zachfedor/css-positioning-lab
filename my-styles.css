@@ -35,15 +35,13 @@ width: 100%;
   color: white;
   padding: 10px;
   width: 50%;
-  margin-right: 25%;
-  margin-left: 25%;
+  margin: auto;
 }
 
 #boxmodel-01 div{
   display: block;
   width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
   border: 2rem solid blue;
 
   padding: 20px;
@@ -54,8 +52,7 @@ width: 100%;
   box-sizing: border-box;
   display: block;
   width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: auto;
   border: 2rem solid blue;
 
   padding: 20px;
@@ -71,5 +68,11 @@ width: 100%;
   float:right;
   margin: 5%;
   margin-right: 0
-
+}
+#float-03 img{
+  float:left;
+  margin: 3%;
+}
+#float-03 p.clear{
+  clear: left;
 }
