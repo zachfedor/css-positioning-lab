@@ -14,10 +14,13 @@ margin: 20px;
     width: 50px;
     height: 50px;
     border: thin solid green;
-    
-
-    
+}
+#display-04 div:nth-of-type(1){
+    display: none;
     
 }
+    
+    
+
 /* All your edits should go here */
 
