@@ -56,3 +56,19 @@
   padding: 20px;
   width: 50%;
 }
+
+#float-01 img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+#float-02 {
+  text-align: justify;
+}
+#float-02 img {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
