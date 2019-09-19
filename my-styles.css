@@ -79,8 +79,20 @@
     margin-bottom: 20px;
     margin-left: 20px;
   }
-#float-04 div{
+  #float-04 div{
   float: left;
   background-color: lightblue;
   margin: 10px;
 }
+  #float-05 p:first-child{
+    box-sizing: content-box;
+    width: 45%;
+    float: left;
+    padding: 20px;
+    border-right: thin solid black;
+  }
+  #float-05 p{
+    box-sizing: content-box;
+    width: 45%;
+    float: right;
+  }
