@@ -59,5 +59,11 @@ width: 100%;
   border: 2rem solid blue;
 
   padding: 20px;
+}
+
+#float-01 img{
+  float:left;
+  margin: 5%;
+  margin-left: 0
 
 }
