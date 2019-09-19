@@ -65,3 +65,14 @@
   margin-bottom: 30px;
   text-align: justify;
 }
+
+#float-03 img{
+  float: left;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#float-03 p.clear{
+  float: left;
+}
