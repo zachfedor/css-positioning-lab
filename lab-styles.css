@@ -59,3 +59,11 @@ section:after {
   display: table;
   clear: both;
 }
+figure {
+  border: 2px solid #a3be8c;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+}
+figure img {
+  width: 100%;
+}
