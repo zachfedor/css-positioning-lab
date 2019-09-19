@@ -112,5 +112,28 @@
   position: relative;
   left:50px;
 }
+#position-02 div{
+  border: thin solid red;
+}
+#position-02 div :first-child{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#position-02 div :nth-child(2){
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#position-02 div :nth-child(3){
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+}
+#position-02 div :last-child{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
 
 /* All your edits should go here */
