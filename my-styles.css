@@ -21,3 +21,14 @@
 	  color: white;
 	}
 	  
+#display-05 a {
+          display: inline-block;
+	  position: absolute;
+	  padding-top: 10px;
+	  padding-bottom: 10px; 
+	  background-color: orange;
+	  border: 1px solid blue;
+	  width:50%;	
+	  left:25%;
+	  top:25%;
+	}
