@@ -103,6 +103,14 @@
   display: table;
   clear: both;
 }
-
+#position-01 div{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+#position-01 div:nth-child(even){
+  position: relative;
+  left:50px;
+}
 
 /* All your edits should go here */
