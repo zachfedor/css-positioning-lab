@@ -160,3 +160,24 @@
   top:70%;
   right:95%;
 }
+
+#position-03  div {
+  border: thin solid;
+  height: 100px;
+}
+#position-03 span:nth-child(1){
+  position: absolute;
+}
+#position-03 span:nth-child(2){
+  position: absolute;
+  left: 92%;
+}
+#position-03 span:nth-child(3){
+  position: absolute;
+  top: 64%;
+  left: 90.5%;
+}
+#position-03 span:nth-child(4){
+  position: absolute;
+  top: 64%;
+}
