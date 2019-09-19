@@ -76,3 +76,14 @@
 #float-03 p.clear{
   float: left;
 }
+
+#float-04 img{
+  float: left;
+  margin-right: 10px;
+}
+
+#float-04 div{
+  background-color: lightblue;
+  float: left;
+  margin-right: 10px;
+}
