@@ -158,4 +158,8 @@
   bottom: 0;
   left: 0;
 }
+#position-04 div {
+  position: absolute;
+  top: 0;
+}
 /* All your edits should go here */
