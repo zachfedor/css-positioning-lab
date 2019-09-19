@@ -135,5 +135,29 @@
   bottom: 0px;
   left: 0px;
 }
+#position-03 div{
+  border: thin solid red;
+  height: 100px;
+}
+#position-03 div :first-child{
+  position: absolute;
+  left: 29.025px;
+  top: 29.025px;
+}
+#position-03 div :nth-child(2){
+  position: absolute;
+  top: 29.025px;
+  right: 29.025px;
+}
+#position-03 div :nth-child(3){
+  position: absolute;
+  bottom: 29.025px;
+  right: 29.025px;
+}
+#position-03 div :last-child{
+  position: absolute;
+  bottom: 29.025px;
+  left: 29.025px;
+}
 
 /* All your edits should go here */
