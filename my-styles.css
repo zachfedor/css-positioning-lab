@@ -26,4 +26,18 @@
   text-align: center;
   display: block;
 }
+#boxmodel-01 div {
+  box-sizing: content-box;
+  margin: 0 auto;
+  width: 50%;
+  padding: 30px 30px 30px 30px;
+  border: thick solid black;
+}
+#boxmodel-02 div {
+  box-sizing: content-box;
+  width: 50%;
+  padding: 30px;
+  border: thick solid black;
+  margin: 0 auto;
+}
 /* All your edits should go here */
