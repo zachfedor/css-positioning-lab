@@ -30,6 +30,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+  #boxmodel-01 div{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border: thick solid black;
+  }
 
 
   }
