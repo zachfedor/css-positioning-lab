@@ -16,3 +16,12 @@ article section#display-02 span {
   display: block;
   border: 1px solid #990000;
 }
+
+/*Display 03*/
+article section#display-03 div {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #009900;
+  width: 50px;
+  height: 50px;
+}
