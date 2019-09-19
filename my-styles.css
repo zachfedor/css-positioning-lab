@@ -57,3 +57,11 @@
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
+#float-02 img{
+  float: right;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
