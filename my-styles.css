@@ -1,7 +1,11 @@
 /* Your Stylesheet */
-div{
+#display-01 div{
   display:inline;
   padding-left: 20px;
   border: 4px solid blue;
+  }
+  #display-02 span{
+    display:block;
+    border: 4px solid red;
   }
 /* All your edits should go here */
