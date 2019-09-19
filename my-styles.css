@@ -225,3 +225,12 @@ background-color: #A9A9A9;
   left: 45px;
   top: 45px;
 }
+
+#position-06 div {
+position: absolute;
+background-color: lavender;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+}
