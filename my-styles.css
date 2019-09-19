@@ -78,3 +78,24 @@
 #float-03 p.clear {
   clear: left;
 }
+
+#float-04 img {
+  float: left;
+  margin: 20px;
+}
+#float-04 div {
+  background-color: lightblue;
+}
+#float-04 div ::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#float-05 {
+  column-count: 2;
+  column-rule: thin solid;
+}
+#float-05 p {
+  padding: 0px 20px 0px 20px;
+}
