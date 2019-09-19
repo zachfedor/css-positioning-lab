@@ -19,3 +19,7 @@
   height: 45px;
   width: 45px;
 }
+
+#display-04 div:nth-of-type(1){
+  display: none;
+}
