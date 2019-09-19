@@ -98,3 +98,19 @@
   display: table;
   clear: both;
 }
+#float-05 {
+  text-align: justify;
+}
+
+#float-05 p:first-child {
+  box-sizing: content-box;
+  width: 45%;
+  float: left;
+  padding: 13px;
+  border-right: 1px solid black;
+}
+ #float-05 p {
+   width: 45%;
+   float: right;
+
+ }
