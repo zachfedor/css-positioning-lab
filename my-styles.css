@@ -75,6 +75,57 @@ float: left;
 margin: 20px;
 }
 
+#float-03 img{
+float: left;
+margin: 20px;
+}
+
+#float-04 div{
+float: left;
+margin-bottom: 10px;
+background: lightblue;
+}
+
+#float-04 img{
+    float: left;
+    margin: 20px;
+    }
+#float-05 p:first-child {
+        box-sizing: content-box;
+        width: 45%;
+        float: left;
+        border-right: thin solid black;
+        margin-right: 35px;
+        padding-right: 20px;
+        }
+
+#float-06 p:first-child {
+    box-sizing: content-box;
+    width: 45%;
+    float: left;
+    border-right: thin solid black;
+    margin-right: 35px;
+    padding-right: 20px;
+}
+#float-06 p:nth-child (2) {
+box-sizing: content-box;
+width: 45%;
+float: right;
+margin-right: 35px;
+padding-right: 20px;
+}
+
+#float-06 div{
+box-sizing: content-box;
+float: left;
+padding: 20px;
+
+}
+#float-06 >p{
+clear: both;
+padding-bottom: 20px;
+}
+
 
 
 
