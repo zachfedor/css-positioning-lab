@@ -1,8 +1,18 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
+
+/*Display 01*/
 article section#display-01 div {
   display: inline;
+  box-sizing: border-box;
   border: 1px solid #000099;
   margin: 20px;
+}
+
+/*Display 02*/
+article section#display-02 span {
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid #990000;
 }
