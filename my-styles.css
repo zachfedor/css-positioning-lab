@@ -58,3 +58,11 @@ visibility: hidden;
    border: thick solid;
    padding: 3rem;
  }
+
+ /*Float 01*/
+ article section#float-01 img {
+   float: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 0;
