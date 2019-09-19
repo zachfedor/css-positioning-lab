@@ -72,4 +72,14 @@
   #float-03 p.clear{
     float: left;
   }
-  
+  #float-04 img{
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+#float-04 div{
+  float: left;
+  background-color: lightblue;
+}
