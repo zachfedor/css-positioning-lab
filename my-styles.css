@@ -23,3 +23,12 @@
 #display-04 div:nth-of-type(odd) {
   visibility: hidden;
 }
+
+#display-05 a {
+  display: inline-block;
+  box-sizing: border-box;
+  background: grey;
+  width: 50%;
+  padding: 2%;
+  margin-left: 25%;
+}
