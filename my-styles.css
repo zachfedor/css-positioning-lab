@@ -52,5 +52,16 @@ margin-top: 25px;
 margin-right: 20px;
 margin-bottom: 5px;
 }
+
+#float-02 img {
+    float: right;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    
+}
+#float-02 p {
+    text-align: justify;
+}
 /* All your edits should go here */
 
