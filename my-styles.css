@@ -29,7 +29,28 @@ margin: 20px;
         margin-right: auto;
         
     }
-    
-
+    #boxmodel-01 div{
+        display: block;
+        width: 50%;
+        border: thick solid green;
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#boxmodel-02 div{
+    display: block;
+    box-sizing: border-box;
+        width: 50%;
+        border: thick solid green;
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+}
+#float-01 img {
+float: left;
+margin-top: 25px;
+margin-right: 20px;
+margin-bottom: 5px;
+}
 /* All your edits should go here */
 
