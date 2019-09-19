@@ -29,3 +29,14 @@ width: 100%;
   display: none;
 
 }
+#display-05 a{
+  display:block;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+
+
+}
