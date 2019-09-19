@@ -1,11 +1,20 @@
 /* Your Stylesheet */
 #display-01 div{
   display:inline;
-  padding-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   border: 4px solid blue;
   }
   #display-02 span{
     display:block;
     border: 4px solid red;
   }
+#display-03 div{
+  display:inline;
+  padding: 50px;
+  border: 4px solid green;
+}
+ #display-04:nth-of-type{
+  opacity: 0;
+}
 /* All your edits should go here */
