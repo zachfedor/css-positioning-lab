@@ -1,6 +1,14 @@
 #display-01 div {
     display: inline;
-    border: 2px solid blue;
+    border: 1px solid blue;
     padding: 20px;
 }
+#display-02 span {
+    display: block;
+    white-space: pre-line;
+    border: 1px solid red;
+}
+
+
+
 
