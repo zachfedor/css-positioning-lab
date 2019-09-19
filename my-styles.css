@@ -195,3 +195,33 @@
   top: -8700px;
   left: 50%;
 }
+
+#position-05 div.outer-box {
+
+width: 4rem;
+height: 4rem;
+background-color: #D3D3D3;
+
+}
+
+#position-05 div.outer-box:nth-of-type(1){
+  position: relative;
+  left: 1300px;
+  top: 110px;
+
+}
+
+#position-05 div.inner-box {
+
+  position: relative;
+width: 1rem;
+height: 1rem;
+background-color: #A9A9A9;
+
+}
+
+#position-05 div.inner-box:nth-of-type(1){
+  position: relative;
+  left: 45px;
+  top: 45px;
+}
