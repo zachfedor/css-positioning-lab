@@ -38,6 +38,13 @@
     padding: 40px;
     border: thick solid black;
   }
-
-
-  }
+  #boxmodel-02 div{
+    display: block;
+    box-sizing: border-box;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 40px;
+      border: thick solid black;
+    }
+  
