@@ -1,4 +1,6 @@
-/* Your Stylesheet */
-
-/* All your edits should go here */
+#display-01 div {
+    display: inline;
+    border: 2px solid blue;
+    padding: 20px;
+}
 
