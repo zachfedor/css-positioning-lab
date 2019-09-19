@@ -49,3 +49,12 @@ visibility: hidden;
    border: thick solid;
    padding: 3rem;
  }
+
+/*Box Model 02*/
+ article section#boxmodel-02 div {
+   box-sizing: border-box;
+   width: 50%;
+   margin: auto;
+   border: thick solid;
+   padding: 3rem;
+ }
