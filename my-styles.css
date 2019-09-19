@@ -2,3 +2,10 @@
 
 /* All your edits should go here */
 
+#display-01 div{
+  display: inline;
+  border:.5px solid blue;
+  margin: 20px;
+
+
+}
