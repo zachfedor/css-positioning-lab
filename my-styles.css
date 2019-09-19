@@ -197,57 +197,91 @@
 }
 
 #position-05 div.outer-box {
-
-width: 4rem;
-height: 4rem;
-background-color: #D3D3D3;
-
+  width: 4rem;
+  height: 4rem;
+  background-color: #D3D3D3;
 }
 
-#position-05 div.outer-box:nth-of-type(1){
+#position-05 div.outer-box:nth-of-type(1) {
   position: relative;
   left: 1300px;
   top: 110px;
-
 }
 
 #position-05 div.inner-box {
-
   position: relative;
-width: 1rem;
-height: 1rem;
-background-color: #A9A9A9;
-
+  width: 1rem;
+  height: 1rem;
+  background-color: #A9A9A9;
 }
 
-#position-05 div.inner-box:nth-of-type(1){
+#position-05 div.inner-box:nth-of-type(1) {
   position: relative;
   left: 45px;
   top: 45px;
 }
 
 #position-06 div {
-position: absolute;
-background-color: lavender;
-top: 0px;
-left: 0px;
-right: 0px;
-bottom: 0px;
+  position: absolute;
+  background-color: lavender;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 #position-07 a {
-
-position: absolute;
-left: 0px;
-bottom: 0px;
-padding: 5px;
-background-color: green;
-margin: 5px;
-
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px;
+  background-color: green;
+  margin: 5px;
 }
 
 #position-07 a:hover {
+  background-color: yellow;
+}
 
-background-color: yellow;
+#layout nav {
+  height: 60px;
+  background: #b7d84b;
+}
 
+#layout nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  line-height: 60px;
+  border-right: 1px solid #91ab3b;
+  float: left;
+}
+
+#layout aside {
+  position: absolute;
+  top: 200px;
+  bottom: 200px;
+  right: -80px;
+  width: 400px;
+  padding: 0 20px;
+  border-top: 5px solid #f95b34;
+  background: #fa8366;
+}
+
+#layout aside p {
+  display: block;
+}
+
+#layout main p {
+  width: 70%;
+}
+
+#layout footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #f36283;
 }
