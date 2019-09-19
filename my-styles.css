@@ -30,3 +30,14 @@ article section#display-03 div {
 article section#display-04 div:first-child {
 visibility: hidden;
  }
+
+ /*Display 05*/
+ article section#display-05 a {
+   box-sizing: border-box;
+   display: block;
+   background-color: grey;
+   width: 50%;
+   padding: 10px;
+   position: relative;
+   margin: auto;
+ }
