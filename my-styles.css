@@ -45,3 +45,12 @@
   padding: 20px;
   border: thick solid;
 }
+
+#boxmodel-02 div {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  border: thick solid;
+  box-sizing: border-box;
+}
