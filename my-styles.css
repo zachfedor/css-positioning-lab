@@ -67,3 +67,9 @@ width: 100%;
   margin-left: 0
 
 }
+#float-02 img{
+  float:right;
+  margin: 5%;
+  margin-right: 0
+
+}
