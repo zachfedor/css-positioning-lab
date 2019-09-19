@@ -10,4 +10,10 @@
   border: thin solid red;
   width: 100%;
 }
+#display-03 div{
+  float:left;
+  border: thin solid green;
+  width: 100px;
+  height: 100px;
+}
 /* All your edits should go here */
