@@ -19,3 +19,12 @@ border: 1px solid;
 border-color: red;
 
 }
+
+#display-03 div{
+
+display: inline;;
+border: 1px solid;
+border-color: green;
+padding: 20px;
+
+}
