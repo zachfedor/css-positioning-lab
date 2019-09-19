@@ -57,4 +57,10 @@
 #float-02 p{
   text-align: justify;
 }
+#float-03 img{
+  margin-left:30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 /* All your edits should go here */
