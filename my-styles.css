@@ -1,4 +1,179 @@
 /* Your Stylesheet */
-
-/* All your edits should go here */
-
+#display-01 div{
+  display: inline;
+  border: thin solid blue;
+  margin: 20px;
+}
+#display-02 span{
+  display: block;
+  border: thin solid red;
+}
+#display-03 div{
+  float:left;
+  border: thin solid green;
+  height: 100px;
+  width: 100px;
+}
+#display-04 div:nth-of-type(1){
+display:none;
+}
+#display-05 a{
+  display: block;
+  width: 50%;
+  background: grey;
+  padding:30px;
+  margin-right:25%;
+  margin-left:25%;
+  text-align: center;
+}
+#boxmodel-01 div{
+  display: block;
+  width:50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+  border: thick solid red;
+  padding: 50px;
+}
+#boxmodel-02 div{
+  display: block;
+  width:50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+  border: thick solid red;
+  padding: 50px;
+  box-sizing: border-box;
+}
+#float-01 img{
+  float:left;
+  margin-right:1%;
+  margin-top: 1rem;
+  margin-bottom: 1%;
+}
+#float-02 img{
+  float:right;
+  margin-left:1%;
+  margin-top: 1rem;
+  margin-bottom: 1%;
+}
+#float-02 p{
+  text-align: justify;
+}
+#float-03 img{
+  float:left;
+  margin-right:1%;
+  margin-top: 1rem;
+  margin-bottom: 1%;
+  margin-left:1%;
+}
+#float-03 p:last-child{
+  clear:left;
+}
+#float-04 img{
+  float:left;
+  margin-right:1%;
+  margin-top: 1rem;
+  margin-bottom: 1%;
+  margin-left:1%;
+}
+#float-04 div{
+  background: lightblue;
+}
+#float-04 div{
+  content: "";
+    display: table;
+    clear: both;
+}
+#float-05 p:first-child{
+  box-sizing: border-box;
+  float:left;
+  width: 50%;
+  padding: 5%;
+  text-align: justify;
+  border-right: thin solid black;
+}
+#float-05 p:last-child{
+  float:right;
+  box-sizing: border-box;
+  width: 50%;
+  padding:5%;
+  text-align: justify;
+  }
+#float-06 div p:first-child{
+    box-sizing: border-box;
+    float:left;
+    width: 50%;
+    padding: 5%;
+    text-align: justify;
+    border-right: thin solid black;
+  }
+#float-06 div p:last-child{
+    float:right;
+    box-sizing: border-box;
+    width: 50%;
+    padding:5%;
+    text-align: justify;
+    }
+#float-06 div + p{
+  content: "";
+    display: table;
+    clear: both;
+}
+#position-01 div{
+  width: 50px;
+  height: 50px;
+  background:red;
+}
+#position-01 div:nth-child(even){
+  position: relative;
+  left: 50px;
+}
+#position-02 div{
+  border: solid thin red;
+}
+#position-02 div :nth-child(1){
+  position: absolute;
+  top:0;
+  left:0;
+}
+#position-02 div :nth-child(2){
+  position: absolute;
+  top:0;
+  right:0;
+}
+#position-02 div :nth-child(3){
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+#position-02 div :nth-child(4){
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+#position-03 div{
+  border: solid thin red;
+  height: 100px;
+  position:relative;
+}
+#position-03 div span:nth-child(1){
+  position: absolute;
+  top:0;
+  left:0;
+}
+#position-03 div :nth-child(2){
+  position: absolute;
+  top:0;
+  right:0;
+}
+#position-03 div :nth-child(3){
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+#position-03 div :nth-child(4){
+  position: absolute;
+  bottom:0;
+  right:0;
+}
