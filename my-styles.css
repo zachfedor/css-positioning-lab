@@ -70,3 +70,11 @@
 #float-02 p {
   text-align: justify;
 }
+
+#float-03 img {
+  float: left;
+  margin: 20px;
+}
+#float-03 p.clear {
+  clear: left;
+}
