@@ -76,3 +76,14 @@ width: 100%;
 #float-03 p.clear{
   clear: left;
 }
+
+#float-04 img{
+  clear: left;
+  margin: auto;
+
+}
+#float-04 div{
+  background-color: cyan;
+  display:flow-root;
+  
+}
