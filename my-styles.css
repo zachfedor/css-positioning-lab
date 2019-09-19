@@ -76,11 +76,27 @@ float: left;
 #float-04 div{
     float: left;
     margin-bottom: 10px;
-    background: lightblue;
+    background: rgb(85, 105, 112);
 }
 #float-04 img {
     float: left;
     margin: 20px;
+}
+
+#float-05 p:first-child {
+    box-sizing: content-box;
+    width: 45%;
+    float: left;
+    border-right: thin solid black;
+    padding-right: 20px;
+
+    
+}
+#float-05 p{
+    box-sizing: content-box;
+    width: 45%;
+    float: right;
+    padding: 20px;
 }
 /* All your edits should go here */
 
