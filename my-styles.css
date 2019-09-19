@@ -98,5 +98,34 @@ float: left;
     float: right;
     padding: 20px;
 }
+
+#float-06 p:first-child {
+    box-sizing: content-box;
+    width: 40%;
+    float: left;
+    border-right: thin solid black;
+    margin-right: 35px;
+    padding-right: 20px;
+}
+#float-06 div p:nth-child(2) {
+box-sizing: content-box;
+width: 42%;
+float: right;
+margin-right: 35px;
+padding-right: 20px;
+}
+
+#float-06 div{
+box-sizing: content-box;
+float: left;
+padding: 20px;
+
+}
+#float-06 >p{
+clear: both;
+padding-bottom: 20px;
+}
+
+
 /* All your edits should go here */
 
