@@ -6,3 +6,8 @@
   border: thin solid blue;
   margin: 20px;
 }
+#display-02 span{
+  display: block;
+  border: thin solid red;
+  width: 100%;
+}
