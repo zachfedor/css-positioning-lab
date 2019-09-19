@@ -76,8 +76,8 @@ box-sizing: border-box;
 
 #float-02 p {
 
-  text-justify: justify;
-  justify:auto;
+  text-justify: auto;
+  text-align: justify;
 }
 
 #float-03 img {
@@ -91,6 +91,35 @@ box-sizing: border-box;
   clear: both;
 }
 
+#float-04 img {
+
+  float: left;
+  margin: 30px 10px 10px 10px;
+
+}
+
+#float-04 div {
+  background:3px;
+  background-color: lightblue;
+display: flow-root;
+}
+
+#float-05 p:nth-last-of-type(1){
+
+float:left;
+padding: 15px;
+width: 45%;
+border-right:1px soild;
+}
+
+#float-05 p:nth-last-of-type(2) {
+
+float:right;
+padding: 15px;
+width: 45%;
+border-left: 1px soild; 
+
+}
 
 
 
