@@ -8,6 +8,13 @@
     white-space: pre-line;
     border: 1px solid red;
 }
+#display-03 div {
+    display: inline-block;
+    border: 1px solid green;
+    height: 50px;
+    width: 50px;
+    padding: 80px;
+}
 
 
 
