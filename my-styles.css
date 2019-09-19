@@ -19,11 +19,10 @@
   display: none;
 }
 #display-05 a {
-  font-size: 4rem;
   background: grey;
   padding: 10px 0px 10px 0px;
-  margin: auto;
-  text-align: center;
+  margin: 0 auto;
+  width: 50%;
   display: block;
 }
 #boxmodel-01 div {
@@ -40,4 +39,23 @@
   border: thick solid black;
   margin: 0 auto;
 }
+#float-01 img {
+  float: left;
+  margin: 1em 10px 10px 0px;
+}
+#float-02 img {
+  float: right;
+  margin: 1em 0px 10px 10px;
+}
+#float-02 p {
+  text-align: justify;
+}
+#float-03 img {
+  float: left;
+  margin: 1em;
+}
+#float-03 .clear {
+  clear: both;
+}
+#float-04
 /* All your edits should go here */
