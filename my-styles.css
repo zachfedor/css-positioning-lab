@@ -79,3 +79,17 @@ margin: 35px 10px 10px 0px;
 #float-03 p.clear {
   clear: both;
 }
+
+#float-04 img {
+
+  float: left;
+  margin: 15px;
+
+}
+
+#float-04 div {
+
+background-color: #ADD8E6;
+display: flow-root;
+
+}
