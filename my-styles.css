@@ -10,5 +10,12 @@
 #display-02 span {
   display: block;
   border: thin solid red;
-  
+}
+
+#display-03 div {
+  display: inline-block;
+  border: thin solid green;
+  box-sizing: border-box;
+  height: 45px;
+  width: 45px;
 }
