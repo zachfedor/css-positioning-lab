@@ -41,3 +41,11 @@ visibility: hidden;
    position: relative;
    margin: auto;
  }
+
+ /*Box Model 01*/
+ article section#boxmodel-01 div {
+   width: 50%;
+   margin: auto;
+   border: thick solid;
+   padding: 3rem;
+ }
