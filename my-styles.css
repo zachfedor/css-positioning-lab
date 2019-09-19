@@ -37,6 +37,16 @@ width: 100%;
   width: 50%;
   margin-right: 25%;
   margin-left: 25%;
+}
 
+#boxmodel-01 div{
+  box-sizing: border-box; 
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 2rem solid blue;
+
+  padding: 20px;
 
 }
