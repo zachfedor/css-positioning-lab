@@ -44,3 +44,14 @@
   border-color: green;
 
 }
+
+#boxmodel-02 div {
+
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0% 25%;
+  padding: 50px;
+  border: 15px solid;
+  border-color: green;
+
+}
