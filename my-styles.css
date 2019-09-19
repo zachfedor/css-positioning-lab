@@ -60,4 +60,16 @@
 #float-03 .clear{
   clear:left;
 }
+#float-04 img{
+  float: left;
+  margin: 20px 20px 20px 20px;
+}
+#float-04 div{
+  background-color: lightblue;
+}
+#float-04 div:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 /* All your edits should go here */
