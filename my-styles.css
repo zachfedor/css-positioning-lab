@@ -57,5 +57,45 @@
 #float-03 .clear {
   clear: both;
 }
-#float-04
+#float-04 img {
+  float: left;
+  margin: 1em;
+}
+#float-04 div {
+  background: lightblue;
+  content: "";
+  display: table;
+  clear: both;
+}
+#float-05 p:first-child {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}
+#float-05 p:last-child {
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  padding-left: 10px;
+  border-left: thin solid black;
+}
+#float-06 div p:first-child {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+  border-right: thin solid black;
+}
+#float-06 div p:last-child {
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  padding-left: 10px;
+}
+#float-06 div::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* All your edits should go here */
