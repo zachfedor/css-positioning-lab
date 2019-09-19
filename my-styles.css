@@ -68,3 +68,14 @@ margin: 35px 10px 10px 0px;
   margin: 35px 0px 10px 10px;
 
 }
+
+#float-03 img {
+
+  float: left;
+  margin: 15px;
+
+}
+
+#float-03 p.clear {
+  clear: both;
+}
