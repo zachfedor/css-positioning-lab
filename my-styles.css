@@ -1,48 +1,46 @@
 /* Your Stylesheet */
-
 /* All your edits should go here */
-
 #display-01 div {
-
-display: inline;
-border: 1px solid;
-border-color: blue;
-padding: 0px;
-margin: 20px;
-
+  display: inline;
+  border: 1px solid;
+  border-color: blue;
+  padding: 0px;
+  margin: 20px;
 }
 
-#display-02 span{
-
-display: block;
-border: 1px solid;
-border-color: red;
-
+#display-02 span {
+  display: block;
+  border: 1px solid;
+  border-color: red;
 }
 
-#display-03 div{
-
-display: inline-block;
-border: 1px solid;
-border-color: green;
-width: 10%;
-height: 0;
-padding-bottom: 10%;
-
-
+#display-03 div {
+  display: inline-block;
+  border: 1px solid;
+  border-color: green;
+  width: 10%;
+  height: 0;
+  padding-bottom: 10%;
 }
 
-#display-04 div:nth-of-type(1){
-
-visibility: hidden;
-
+#display-04 div:nth-of-type(1) {
+  visibility: hidden;
 }
 
 #display-05 a {
+  display: inline-block;
+  background-color: green;
+  padding: 30px 5px;
+  margin: 0% 25%;
+  width: 50%;
+}
 
-display: inline-block;
-background-color: green;
-padding: 30px 5px;
-margin: 0% 25%;
-width: 50%;
+#boxmodel-01 div {
+
+  width: 50%;
+  margin: 0% 25%;
+  padding: 50px;
+  border: 15px solid;
+  border-color: green;
+
 }
