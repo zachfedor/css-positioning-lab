@@ -136,3 +136,27 @@
   position: relative;
   left: 60px;
 }
+
+#position-02 div {
+  border: thin solid;
+}
+#position-02 span:nth-child(1){
+  position: absolute;
+  bottom:70%;
+  right:95%;
+}
+#position-02 span:nth-child(2){
+  position: absolute;
+  bottom:70%;
+  left:95%;
+}
+#position-02 span:nth-child(3){
+  position: absolute;
+  top:70%;
+  left:95%;
+}
+#position-02 span:nth-child(4){
+  position: absolute;
+  top:70%;
+  right:95%;
+}
