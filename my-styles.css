@@ -123,3 +123,16 @@
   content: "";
   clear: both;
 }
+
+
+/* ----Position---- */
+
+#position-01 div {
+  background-color: red;
+  width: 60px;
+  height: 60px;
+}
+#position-01 div:nth-child(even) {
+  position: relative;
+  left: 60px;
+}
