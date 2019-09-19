@@ -37,5 +37,16 @@
   border: 15px solid black;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px;
+  padding: 25px;
+  width: 50%;
+  display: block;
+}
+
+#boxmodel-02 div{
+  border: 15px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  width: 50%;
+  box-sizing: border-box;
 }
