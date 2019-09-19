@@ -17,3 +17,7 @@
   height: 100px;
   border: solid green thin;
 }
+
+#display-04 div:nth-of-type(odd) {
+  visibility: hidden;
+}
