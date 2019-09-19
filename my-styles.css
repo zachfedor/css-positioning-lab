@@ -6,3 +6,7 @@ div {
   border: solid blue thin;
   margin: 20px;
 }
+span {
+  display: block;
+  border: solid red thin;
+}
