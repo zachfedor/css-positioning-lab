@@ -3,7 +3,5 @@
 #display-03 div {display: inline-block; border: 1px solid green; height: 50px; width: 50px; padding: 80px;}
 #display-04 :first-child {visibility: hidden;}
 #display-05 a {background-color: red; display: inline-block; padding-top: 40px; width: 50%; margin-left: 25%;}
-
-
-
+#boxmodel-01 div {width: 50%; padding: 10%; margin-left: 15%; border: thick solid yellow;}
 
