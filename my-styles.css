@@ -55,3 +55,9 @@
   border-color: green;
 
 }
+
+#float-01 img {
+float: left;
+margin: 25px 10px 10px 0px;
+
+}
