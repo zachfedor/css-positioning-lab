@@ -60,5 +60,13 @@
 
 #float-01 img {
   float: left;
-  margin: 25px 20px 20px 0px
+  margin: 25px 20px 20px 0px;
+}
+
+#float-02 img {
+  float: right;
+  margin: 25px 0px 20px 20px;
+}
+#float-02 p {
+  text-align: justify;
 }
