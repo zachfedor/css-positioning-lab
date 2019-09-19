@@ -2,3 +2,20 @@
 
 /* All your edits should go here */
 
+#display-01 div {
+
+display: inline;
+border: 1px solid;
+border-color: blue;
+padding: 0px;
+margin: 20px;
+
+}
+
+#display-02 span{
+
+display: block;
+border: 1px solid;
+border-color: red;
+
+}
