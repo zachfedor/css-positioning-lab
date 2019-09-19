@@ -133,5 +133,29 @@
   bottom: 0px;
   left: 0px;
 }
-
+#position-03 div {
+  position: relative;
+  border: thin solid black;
+  height: 100px;
+}
+#position-03 span:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#position-03 span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#position-03 span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#position-03 span:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 /* All your edits should go here */
