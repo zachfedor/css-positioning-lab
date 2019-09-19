@@ -33,4 +33,13 @@
   padding: 70px;
   border: 50px solid red;
 }
+#boxmodel-02 div{
+  display : flex;
+  justify-content : center;
+  padding: 70px;
+  border: 50px solid red;
+  margin-left: 25%;
+  margin-right: 25%;
+  box-sizing:border-box;
+}
 /* All your edits should go here */
