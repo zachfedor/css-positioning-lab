@@ -1,4 +1,8 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
-
+div {
+  display: inline;
+  border: solid blue thin;
+  margin: 20px;
+}
