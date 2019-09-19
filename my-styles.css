@@ -58,9 +58,13 @@
   text-align: justify;
 }
 #float-03 img{
+  float: left;
   margin-left:30px;
   margin-right: 30px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+#float-03 p:nth-of-type(even){
+  clear: both;
 }
 /* All your edits should go here */
