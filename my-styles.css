@@ -1,4 +1,8 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
-
+article section#display-01 div {
+  display: inline;
+  border: 1px solid #000099;
+  margin: 20px;
+}
