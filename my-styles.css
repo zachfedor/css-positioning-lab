@@ -66,6 +66,8 @@ margin: 35px 10px 10px 0px;
 
   float: right;
   margin: 35px 0px 10px 10px;
+  text-align: justify;
+  text-justify: auto;
 
 }
 
@@ -109,4 +111,25 @@ display: flow-root;
   padding: 15px;
   width: 45%;
 
+}
+
+#float-06 div p:nth-of-type(1){
+
+  float: left;
+  padding: 15px;
+  width: 45%;
+  border-right: 1px solid;
+
+}
+
+#float-06 div p:nth-of-type(2){
+
+  float: right;
+  padding: 15px;
+  width: 45%;
+
+}
+
+#float-06 p {
+  clear: both;
 }
