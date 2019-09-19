@@ -42,4 +42,19 @@
   margin-right: 25%;
   box-sizing:border-box;
 }
+#float-01 img{
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#float-02 img{
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#float-02 p{
+  text-align: justify;
+}
 /* All your edits should go here */
