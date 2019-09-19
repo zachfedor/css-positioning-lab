@@ -2,6 +2,8 @@
 #display-02 span {display: block; white-space: pre-line; border: 1px solid red;}
 #display-03 div {display: inline-block; border: 1px solid green; height: 50px; width: 50px; padding: 80px;}
 #display-04 :first-child {visibility: hidden;}
+#display-05 a {background-color: red; display: inline-block; padding-top: 40px; width: 50%; margin-left: 25%;}
+
 
 
 
