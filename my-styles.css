@@ -47,4 +47,10 @@
       padding: 40px;
       border: thick solid black;
     }
+  #float-01 img{
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
   
