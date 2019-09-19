@@ -53,4 +53,12 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  
+  #float-02 img{
+    float: right;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  #float-02 p{
+    text-align: justify;
+  }
