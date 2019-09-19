@@ -28,3 +28,9 @@ border-color: green;
 padding: 20px;
 
 }
+
+#display-04 div:nth-of-type(1){
+
+visibility: hidden;
+
+}
