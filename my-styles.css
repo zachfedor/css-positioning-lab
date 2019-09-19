@@ -63,12 +63,38 @@
   margin-bottom: 5px;
   margin-top: 20px;
 }
+
 #float-02 {
   text-align: justify;
 }
+
 #float-02 img {
   float: right;
   margin-left: 10px;
   margin-bottom: 5px;
   margin-top: 20px;
+}
+
+#float-03 img {
+  float: left;
+  margin: 20px;
+}
+
+.clear {
+  clear: left;
+}
+
+#float-04 img {
+  float: left;
+  margin: 20px;
+}
+
+#float-04 div {
+  background-color: aliceblue;
+}
+
+#float-04 div:after {
+  content: "";
+  display: table;
+  clear: both;
 }
