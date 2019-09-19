@@ -28,8 +28,6 @@
   color: white;
 }
 
-#display-05 {
-}
 #display-05 a {
   display: inline-block;
   position: absolute;
@@ -39,4 +37,22 @@
   width: 50%;
   left: 25%;
   top: 25%;
+}
+
+#boxmodel-01 div {
+    margin: 0 auto;
+    border: 7px solid black;
+    padding: 20px;
+    width: 50%;
+  }
+
+
+#boxmodel-02 {
+  padding: 40px;
+}
+#boxmodel-02 div {
+  margin: 0 auto;
+  border: 7px solid black;
+  padding: 20px;
+  width: 50%;
 }
