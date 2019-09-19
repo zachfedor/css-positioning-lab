@@ -110,6 +110,7 @@ float:left;
 padding: 15px;
 width: 45%;
 border-right:1px soild;
+border-color: blue;
 }
 
 #float-05 p:nth-last-of-type(2) {
@@ -117,20 +118,91 @@ border-right:1px soild;
 float:right;
 padding: 15px;
 width: 45%;
-border-left: 1px soild; 
+border-left: 3px soild;
+
+}
+
+#float-06 p:nth-last-of-type(1) {
+
+  float:left;
+  padding: 15px;
+  width: 45%;
+  border-right: 1px soild;
+
+}
+
+#float-06 p:nth-last-of-type(2) {
+
+  float:right;
+  padding: 15px;
+  width: 45%;
+  border-right: 1px solid;
+}
+
+#float-06 p:nth-of-type(3) {
+
+  /*Add clearfix hacks to this and float 5 */
+}
+
+#position-01 div {
+background-color: red;
+   display: inline-block;
+  width:10%;
+  height:0;
+  padding-bottom:10%
+
+}
+
+#position-01 div:nth-child() {
+
+
+}
+
+#postion-01 div:nth-child() {
+
+
+}
+
+#position-02 div {
+
+border:3px;
+border-color: red;
+}
+
+
+
+#positon-03 div {
+border:3px;
+border-color:red;
+height:100px
+}
+
+
+#position-04 div {
+
 
 }
 
 
 
+#position-05 div {
 
 
+}
 
 
+#position-06 div {
 
 
+}
 
 
+#position-07 div {
+
+
+}
+
+#layout
 
 
 
