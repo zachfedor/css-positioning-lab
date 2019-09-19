@@ -1,7 +1,7 @@
 /* Your Stylesheet */
-#dispaly-01{
-  border: 6px; 
-  border-color: red;
+#dispaly-01 div{
+  border: 6px; solid: blue;
+  
 
-}
+
 /* All your edits should go here */
