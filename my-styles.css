@@ -93,3 +93,20 @@ background-color: #ADD8E6;
 display: flow-root;
 
 }
+
+#float-05 p:nth-of-type(1){
+
+  float: left;
+  padding: 15px;
+  width: 45%;
+  border-right: 1px solid;
+
+}
+
+#float-05 p:nth-of-type(2){
+
+  float: right;
+  padding: 15px;
+  width: 45%;
+
+}
