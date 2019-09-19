@@ -53,4 +53,11 @@
 #float-02 p{
   text-align: justify;
 }
+#float-03 img{
+  float: left;
+  margin: 20px 20px 20px 20px;
+}
+#float-03 .clear{
+  clear:left;
+}
 /* All your edits should go here */
