@@ -25,7 +25,7 @@ margin: 20px;
   border-color: green;
   width:10%;
   height:0;
-  padding-bottom:10%
+  padding-bottom:10%;
 
 }
 
@@ -104,69 +104,73 @@ box-sizing: border-box;
 display: flow-root;
 }
 
+
+
 #float-05 p:nth-last-of-type(1){
 
 float:left;
 padding: 15px;
-width: 45%;
-border-right:1px soild;
-border-color: blue;
+width: 40%;
+border-right:1px solid;
 }
 
 #float-05 p:nth-last-of-type(2) {
 
 float:right;
 padding: 15px;
-width: 45%;
-border-left: 3px soild;
+width: 40%;
+border-left:1px soild;
 
 }
 
-#float-06 p:nth-last-of-type(1) {
+#float-06 div {
+  content:"";
+  display: table ;
+  clear: both;
+}
+#float-06 p:first-child{
 
   float:left;
-  padding: 15px;
-  width: 45%;
-  border-right: 1px soild;
+  padding: 10px;
+  width: 40%;
+  border-right: 1px solid;
 
 }
 
-#float-06 p:nth-last-of-type(2) {
+#float-06 p:nth-of-type(2){
 
   float:right;
-  padding: 15px;
-  width: 45%;
-  border-right: 1px solid;
+  padding: 10px;
+  width: 40%;
 }
 
-#float-06 p:nth-of-type(3) {
+
 
   /*Add clearfix hacks to this and float 5 */
-}
 
 #position-01 div {
-background-color: red;
-   display: inline-block;
+background: red;
+   
   width:10%;
   height:0;
-  padding-bottom:10%
-
+  padding-bottom:10%;
 }
 
-#position-01 div:nth-child() {
+#position-01 div:nth-child(even){
 
-
+height:0;
+margin-left: 10%;
+width: 10%;
+padding-bottom: 10%;
 }
 
-#postion-01 div:nth-child() {
-
-
-}
 
 #position-02 div {
 
-border:3px;
-border-color: red;
+  border:3px solid;
+  border-color: blue;
+
+
 }
 
 
