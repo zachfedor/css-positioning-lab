@@ -169,14 +169,14 @@ padding-bottom: 10%;
 
   border:3px solid;
   border-color: blue;
-
+ height: 100px
 
 }
 
 #position-02 span:nth-of-type(1) {
 position: absolute;
-top: 4px;
-left: 4px;
+top: 35px;
+left: 35px;
 
 
 }
@@ -184,8 +184,8 @@ left: 4px;
 #position-02 span:nth-of-type(2) {
 
   position: absolute;
-  top: 4px;
-  right: 4px;
+  top: 35px;
+  right: 35px;
 
 }
 
@@ -193,40 +193,45 @@ left: 4px;
 #position-02 span:nth-of-type(3) {
 
   position: absolute;
-  bottom: 4px;
-  right: 4px;
+  bottom: 35px;
+  right: 35px;
 
 }
 
 #position-02 span:nth-of-type(4) {
 
   position: absolute;
-  bottom: 4px ;
-  left: 4px ;
+  bottom: 35px ;
+  left: 35px ;
 }
 #position-03 div {
 border:3px;
 border-color:blue;
 height: 100px ;
 }
+#position-03 span:nth-child(1) {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
 #position-03 span:nth-child(2) {
 position:absolute;
-top: 35px;
-right: 35px;
+top: 12px;
+right: 12px;
 }
 
 #position-03 span:nth-child(3) {
 
   position: absolute;
-  bottom: 35px;
-  right: 35px
+  bottom: 12px;
+  right: 12px
 }
 
 #position-03 span:nth-child(4) {
 
   position: absolute;
-  bottom: 35px;
-  left: 35px;
+  bottom: 12px;
+  left: 12px;
 }
 
 #position-04 div {
