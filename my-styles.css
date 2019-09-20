@@ -126,6 +126,18 @@ clear: both;
 padding-bottom: 20px;
 }
 
+#position-01 div{
+    box-sizing: content-box;
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    
+
+}
+#position-01 div:nth-child(even){
+    box-sizing: content-box;
+    background-color: black;
+}
 
 /* All your edits should go here */
 
