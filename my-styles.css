@@ -239,3 +239,43 @@ section#position-04 {
 #position-07 a:hover {
   background-color: darkgray;
 }
+
+
+/* ----Layout---- */
+
+#layout div {
+  background-color: cyan;
+  box-sizing: border-box;
+}
+#layout div::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+#layout nav {
+  background-color: #91ab3b;
+}
+#layout nav a {
+  display: inline-block;
+  text-align: center;
+  background-color: #91ab3b;
+  width: 90px;
+  height: 90px;
+  margin: 0px;
+  border-right: thin solid black;
+}
+#layout main {
+  background-color: white;
+  width: 50%;
+  float: left;
+}
+#layout aside {
+  width: 30%;
+  float: right;
+  background-color: orange;
+  border-top: thick solid darkorange;
+}
+#layout footer {
+  clear: both;
+  background-color: pink;
+}
