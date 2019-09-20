@@ -1,4 +1,237 @@
 /* Your Stylesheet */
+ #display-01 div{
+display: inline;
+border: thin solid blue;
+margin: 20px;
+}
+#display-02 span{
+    display: block;
+    border: thin solid red;
+}
+#display-03 div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border: thin solid green;
+}
+#display-04 div:nth-of-type(1){
+    display: none;
 
+}
+    #display-05 a[href]{
+        position: relative;
+        display: block;
+        background: gray;
+        width: 50%;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #boxmodel-01 div{
+        display: block;
+        width: 50%;
+        border: thick solid green;
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#boxmodel-02 div{
+    display: block;
+    box-sizing: border-box;
+        width: 50%;
+        border: thick solid green;
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+}
+#float-01 img {
+float: left;
+margin-top: 25px;
+margin-right: 20px;
+margin-bottom: 5px;
+}
+
+#float-02 img {
+    float: right;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    
+}
+#float-02 p {
+    text-align: justify;
+}
+#float-03 img {
+    float: left;
+    margin: 20px;
+    
+
+}
+#float-03 p.clear {
+float: left;
+}
+
+#float-04 div{
+    float: left;
+    margin-bottom: 10px;
+    background: rgb(85, 105, 112);
+}
+#float-04 img {
+    float: left;
+    margin: 20px;
+}
+
+#float-05 p:first-child {
+    box-sizing: content-box;
+    width: 45%;
+    float: left;
+    border-right: thin solid black;
+    padding-right: 20px;
+
+    
+}
+#float-05 p{
+    box-sizing: content-box;
+    width: 45%;
+    float: right;
+    padding: 20px;
+}
+
+#float-06 p:first-child {
+    box-sizing: content-box;
+    width: 40%;
+    float: left;
+    border-right: thin solid black;
+    margin-right: 35px;
+    padding-right: 20px;
+}
+#float-06 div p:nth-child(2) {
+box-sizing: content-box;
+width: 42%;
+float: right;
+margin-right: 35px;
+padding-right: 20px;
+}
+
+#float-06 div{
+box-sizing: content-box;
+float: left;
+padding: 20px;
+
+}
+#float-06 >p{
+clear: both;
+padding-bottom: 20px;
+}
+
+#position-01 div{
+    box-sizing: content-box;
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    
+
+}
+#position-01 div:nth-child(even){
+    box-sizing: content-box;
+    background-color: black;
+}
+#position-02 div{
+    box-sizing: content-box;
+    border: thin solid black;
+}
+#position-02 span:nth-child(1){
+
+position: absolute;
+top: 0px;
+left: 0px;
+
+}
+#position-02 span:nth-child(2){
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#position-02 span:nth-child(3){
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#position-02 span:nth-child(4){
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#position-03 div{
+border: thin solid black;
+position: relative;
+height: 100px;
+
+}
+#position-03 div span:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#position-03 div span:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#position-03 div span:nth-child(3){
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#position-03 span:nth-child(4){
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+
+section#position-04 {
+    position: static;
+}
+
+#position-04 div {
+    position:  absolute;
+    top: 5px;
+    left: 0px;
+}
+
+#position-05 .outer-box{
+    box-sizing: content-box;
+    background: lightgray;
+    width: 4rem;
+    height: 4rem;
+    float: left;
+    
+}
+#position-05 .outer-box:nth-child(1){
+    float: right;
+    position: relative;
+    top: 0px;
+}
+#position-05 .inner-box{
+    box-sizing: content-box;
+    background: darkgray;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    bottom: -26px;
+    right: -27px;
+    
+}
+#position-05 .innerbox{
+
+    
+
+}
 /* All your edits should go here */
 
