@@ -118,5 +118,27 @@
   position: relative;
  right: 20px;
 }
-
+#position-02 div{
+  border: solid 10px green;
+}
+#position-02 span:nth-of-type(1){
+  position:absolute;
+  top:10px;
+  left:10px;
+}
+#position-02 span:nth-of-type(2){
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+#position-02 span:nth-of-type(3){
+  position:absolute;
+  bottom:10px;
+  left:10px;
+}
+#position-02 span:nth-of-type(4){
+  position:absolute;
+  bottom:10px;
+  right:10px;
+}
 /* All your edits should go here */
