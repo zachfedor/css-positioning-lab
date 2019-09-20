@@ -2,3 +2,204 @@
 
 /* All your edits should go here */
 
+#display-01 div{
+  display: inline;
+  margin: 20px;
+  border: solid blue 1px;
+}
+#display-02 span{
+  display: flex;
+  border: solid red 1px;
+}
+#display-03 div{
+  display: inline;
+  border: solid green 1px;
+  padding: 50px;
+}
+#display-04 div:first-of-type{
+  display:none;
+}
+#display-05 a{
+  display: inline-block;
+  padding: 50px 10px;
+  background-color: green;
+  width: 50%;
+  background-position: center;
+  margin: 0 25%
+}
+#boxmodel-01 div{
+  width: 50%;
+  margin: 0 34%;
+  border: solid green 20px;
+  padding: 60px;
+}
+#boxmodel-02 div{
+  width: 50%;
+  margin: 0 34%;
+  border: solid green 20px;
+  padding: 60px;
+  box-sizing: content-box;
+  width: 54%;
+}
+#float-01 img{
+  float: left;
+  display: inline;
+  margin: 30px 10px 10px 0px;
+}
+#float-02 img{
+  float: right;
+  margin: 35px 0px 10px 30px;
+}
+#float-03 img{
+  float: left;
+  display: inline;
+  margin: 30px 10px 10px 0px;
+}
+#float-03 .clear{
+  clear: left;
+}
+
+#float-04 img{
+  float: left;
+  display: inline;
+  margin: 30px 10px 10px 0px;
+}
+#float-04 div{
+  background-color: #00FFFF;
+  display: flow-root;
+}
+
+#float-05 p:first-of-type{
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+#float-05 p:last-of-type{
+  float: right;
+  width: 45%;
+  padding: 10px;
+  border-left: solid black 1px;
+}
+#float-06{
+
+}
+#float-06 div{
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+#float-06 p:last-child{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#position-01 div{
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
+#position-01 div:nth-of-type(even){
+  position: relative;
+  right: -50px;
+}
+#position-02 div{
+  border: solid black 1px;
+}
+#position-02 span:first-child{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#position-02 span:nth-child(2){
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#position-02 span:nth-child(3){
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+#position-02 span:nth-child(4){
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#position-03 div{
+  border: solid black 1px;
+  height: 100px;
+}
+#position-03 span:nth-child(2){
+  position: absolute;
+  top: 42px;
+  right: 42px;
+}
+#position-03 span:nth-child(3){
+  position: absolute;
+  bottom: 42px;
+  right: 42px;
+}
+#position-03 span:nth-child(4){
+  position: absolute;
+  bottom: 42px;
+  left: 42px;
+}
+#position-04 div{
+  position: static;
+}
+#position-04 div{
+  position: absolute;
+  top: -5px;
+}
+body{
+  position: relative;
+}
+#position-05 .outer-box{
+  width: 4rem;
+  height: 4rem;
+  background-color: #D3D3D3;
+}
+#position-05 .inner-box{
+  width: 1rem;
+  height: 1rem;
+  background-color: #A9A9A9;
+}
+#position-05 .outer-box:first-child{
+  position: relative;
+  right: -90%;
+  bottom: 10px;
+}
+#position-05 .outer-box:last-child{
+  position: relative;
+  left: 10px;
+  bottom: 100px;
+}
+#position-05 .inner-box{
+position: absolute;
+bottom: 30px;
+left: 33px;
+}
+#position-06{
+  position: relative;
+}
+#position-06 div{
+  outline: solid black 1px;
+  background: color;
+  background-color: #E6E6FA;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#position-07 a{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: yellow;
+  margin: 20px 20px;
+}
+#position-07 a:hover{
+  color:  white;
+}
