@@ -228,3 +228,14 @@ section#position-04 {
   bottom: 0px;
   left: 0px;
 }
+
+#position-07 a {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: #7d7d7d;
+  padding: 10px;
+}
+#position-07 a:hover {
+  background-color: darkgray;
+}
