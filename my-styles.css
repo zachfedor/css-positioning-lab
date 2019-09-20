@@ -1,10 +1,57 @@
-#display-01 div {display: inline; border: 1px solid blue; padding: 20px;}
-#display-02 span {display: block; white-space: pre-line; border: 1px solid red;}
-#display-03 div {display: inline-block; border: 1px solid green; height: 50px; width: 50px; padding: 80px;}
-#display-04 :first-child {visibility: hidden;}
-#display-05 a {background-color: red; display: inline-block; padding-top: 40px; width: 50%; margin-left: 25%;}
-#boxmodel-01 div {width: 50%; padding: 10%; margin-left: 15%; border: thick solid yellow;}
-#boxmodel-02 div {width: 50%; padding: 10%; margin-left: 15%; border: thick solid yellow; box-sizing: border-box;}
-#float-01 img {float: left; margin-top: 30px; margin-right: 10px;}
-#float-02 img {float: right; margin-top: 30px; margin-left: 10px;}
-#float-02 p {text-align: justify;}
+#display-01 div {
+    display: inline; 
+    border: 1px solid blue; 
+    padding: 20px;
+  }
+  #display-02 span {
+    display: block; 
+    white-space: pre-line; 
+    border: 1px solid red;
+  }
+  #display-03 div {
+    display: inline-block; 
+    border: 1px solid green; 
+    height: 50px; 
+    width: 50px; 
+    padding: 80px;
+  }
+  #display-04 :first-child {
+    visibility: hidden;
+  }
+  #display-05 a {
+    background-color: red; 
+    display: inline-block; 
+    padding-top: 40px; 
+    width: 50%; 
+    margin-left: 25%;
+  }
+  #boxmodel-01 div {
+    width: 50%; 
+    padding: 10%; 
+    margin-left: 15%; 
+    border: thick solid yellow;
+  }
+  #boxmodel-02 div {
+    width: 50%; 
+    padding: 10%; 
+    margin-left: 15%; 
+    border: thick solid yellow; 
+    box-sizing: border-box;
+  }
+  #float-01 img {
+    float: left; 
+    margin-top: 30px; 
+    margin-right: 10px;
+  }
+  #float-02 img {
+    float: right; 
+    margin-top: 30px; 
+    margin-left: 10px;
+  }
+  #float-02 p {
+    text-align: justify;
+  }
+  
+
+
+
