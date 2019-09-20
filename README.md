@@ -24,4 +24,3 @@
 - [MDN: Introduction to CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) (note: skip Grid, Table, and Multi-Column layouts)
 - [MDN: Layout in Normal Flow](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow)
 - [A List Apart: CSS Positioning 101](https://alistapart.com/article/css-positioning-101/)
-
