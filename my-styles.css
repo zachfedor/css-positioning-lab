@@ -162,24 +162,29 @@
 }
 
 #position-03  div {
+  position: relative;
   border: thin solid;
   height: 100px;
 }
 #position-03 span:nth-child(1){
   position: absolute;
+  top: 0px;
+  left: 0px;
 }
 #position-03 span:nth-child(2){
   position: absolute;
-  left: 92%;
+  right: 0px;
+  top: 0px;
 }
 #position-03 span:nth-child(3){
   position: absolute;
-  top: 64%;
-  left: 90.5%;
+  bottom: 0px;
+  right: 0px;
 }
 #position-03 span:nth-child(4){
   position: absolute;
-  top: 64%;
+  bottom: 0px;
+  left: 0px;
 }
 
 body {
