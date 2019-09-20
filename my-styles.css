@@ -114,3 +114,21 @@ visibility: hidden;
    float: left;
    padding-right: 15px;
  }
+
+ /*Float 06*/
+article section#float-06 div p:first-child {
+   box-sizing: border-box;
+   width: 50%;
+   float: right;
+   padding-left: 15px;
+   border-left: thin solid black;
+ }
+ article section#float-06 div p:nth-child(2) {
+   box-sizing: border-box;
+   width: 50%;
+   float: left;
+   padding-right: 15px;
+ }
+ article section#float-06 div {
+   overflow: auto;
+ }
