@@ -1,4 +1,45 @@
 /* Your Stylesheet */
-
+#display-01 div{
+  display: inline;
+  border: thin solid blue;
+  margin: 20px;
+}
+#display-02 span{
+display: block;
+border: thin solid red;
+}
+#display-03 div{
+  display: inline;
+  border: thin solid green;
+  width: 25px;
+  height: 25px;
+  padding: 25px;
+}
+#display-04>div:first-of-type {
+  position: fixed;
+}
+#display-05 a {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: grey;
+  width: 50%;
+  padding: 2%;
+  margin-left: 25%
+}
+#boxmodel-01 div {
+  display: inline-block;
+  box-sizing: content-box;
+  border: thick blue;
+  width: 25%;
+  padding: 25%;
+  margin-left: 25%
+}
+#boxmodel-02 div {
+  display: inline-block;
+  box-sizing: content-box;
+  border: thick blue;
+  width: 25%;
+  padding: 25%;
+  margin-left: 25%
+}
 /* All your edits should go here */
-
