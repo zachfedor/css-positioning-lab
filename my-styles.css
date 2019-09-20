@@ -81,4 +81,19 @@
   color: #fff;
   overflow: auto;
 }
+#float-05 p:nth-of-type(odd){
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+#float-05 p:nth-of-type(even){
+  float: right;
+  width: 40%;
+  padding:20px;
+  border-left: 6px solid green;
+  height: 500;
+  position: absolute;
+  left: 50%;
+}
+
 /* All your edits should go here */
