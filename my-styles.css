@@ -1,4 +1,154 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
+#display-01 div{
+  display: inline;
+  border: thin solid blue;
+  margin: 20px;
+}
+#display-02 span{
+  display: block;
+  border: thin solid red;
+  width: 100%;
+}
+#display-03 div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border: thin solid green;
+  }
+  #display-04 div:nth-of-type(1){
+    display: none;
+  }
+  #display-05 a[href]{
+    display: block;
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    background: gray;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #boxmodel-01 div{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border: thick solid black;
+  }
+  #boxmodel-02 div{
+    display: block;
+    box-sizing: border-box;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 40px;
+      border: thick solid black;
+    }
+  #float-01 img{
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #float-02 img{
+    float: right;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  #float-02 p{
+    text-align: justify;
+  }
+  #float-03 img{
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+  }
+  #float-03 p.clear{
+    clear: both;
+  }
+  #float-04 img{
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  #float-04 div{
+  float: left;
+  background-color: lightblue;
+  margin: 10px;
+}
+  #float-05 p:first-child{
+    box-sizing: content-box;
+    width: 45%;
+    float: left;
+    padding: 20px;
+    border-right: thin solid black;
+  }
+  #float-05 p{
+    box-sizing: content-box;
+    width: 45%;
+    float: right;
+  }
+  #float-06 div p:first-child{
+    box-sizing: content-box;
+    width: 40%;
+    float: left;
+    border-right: thin solid black;
+    padding-right: 50px;
+  }
+  #float-06 div p{
+    box-sizing: content-box;
+    width: 40%;
+    float: right;
 
+  }
+  #float-06 >p{
+    box-sizing: content-box;
+    clear: both;
+    width: 100%
+  }
+  #position-01 div{
+    box-sizing: border-box;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+  }
+  #position-01 div:nth-child(odd){
+    clear: both;
+
+  }
+  #position-01 div:nth-child(even){
+    clear: both;
+    margin-left: 50px;
+}
+  #position-02 div span{
+    box-sizing: border-box;
+    border: thin solid black;
+  }
+  #position-02 div span:first-child{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #position-02 div span:nth-child(2){
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  #position-02 div span:nth-child(3){
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  #position-02 div span:nth-child(4){
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
