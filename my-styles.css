@@ -1,4 +1,231 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+#display-01 div {
+  display: inline-block;
+  border: solid blue thin;
+  margin: 20px;
+}
+#display-02 span {
+  display: block;
+  border: solid red thin;
+}
 
+#display-03 div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: solid green thin;
+}
+
+#display-04 div:nth-of-type(1) {
+  visibility: hidden;
+}
+
+#display-05 a {
+  display: inline-block;
+  box-sizing: border-box;
+  background: gray;
+  width: 50%;
+  padding: 5%;
+  margin-left: 25%;
+}
+
+ #boxmodel-01 div {
+   margin-left: 25%;
+   margin-right: 25%;
+   border: solid thick green;
+   padding: 3%;
+}
+
+#boxmodel-02 div {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: solid thick green;
+  padding: 3%;
+}
+
+#float-01 img {
+  float: left;
+  margin-top:5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#float-02 img {
+  float: right;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+
+#float-03 img {
+  float: left;
+  margin: 20px;
+}
+#float-03 p.clear {
+  clear: both;
+}
+
+#float-04 img {
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#float-04 div {
+background-color: lightblue;
+display: flow-root;
+}
+
+#float-05 p:nth-of-type(1) {
+  float: left;
+  border-right: solid 1px;
+  padding: 15px;
+  width: 50%;
+}
+
+#float-05 p:nth-of-type(2) {
+  float: right;
+  padding: 15px;
+  width: 50%;
+}
+
+#float-06 p {
+  box-sizing: border-box;
+}
+
+#float-06 div p:first-child {
+  float: left;
+  border-right: solid 2px;
+  padding: 20px;
+  width: 50%;
+}
+
+#float-06 div p:last-child {
+  float: right;
+  padding: 20px;
+  width: 50%;
+}
+
+#float-06 div::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+#position-01 div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+#position-01 div:nth-child(even) {
+  position: relative;
+  left: 50px;
+}
+
+#position-02 div {
+  border: solid 1px;
+}
+
+#position-02 span:first-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#position-02 span:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#position-02 span:nth-child(3) {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#position-02 span:nth-child(4) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#position-03 div {
+  position: relative;
+  border: solid 1px;
+  height: 100px;
+}
+
+#position-03 span:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#position-03 span:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#position-03 span:nth-child(3) {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#position-03 span:nth-child(4) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+section#position-04 {
+    position: static;
+}
+
+#position-04 div {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#position-06 div {
+  background-color: lavender;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#position-07 a {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  background-color: lightblue;
+  color: lightblue;
+  z-index: 3;
+}
+
+#position-07 a:hover {
+  background-color: Red;
+}
