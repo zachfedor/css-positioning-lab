@@ -228,15 +228,15 @@ section#position-04 {
 }
 
 #position-05 .outer-box:first-child {
-  position: relative;
-  top: 2rem;
-  left: 20px;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
 }
 
 #position-05 .outer-box:last-child {
-  position: relative;
-  top: -2rem;
-  left: 25rem;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
 }
 
 #position-05 div div {
@@ -258,8 +258,83 @@ section#position-04 {
   position: fixed;
   bottom: 0rem;
   right: 0rem;
-  background-color: #000;
+  background-color: rgba(0,0,0,0.5);
   padding: 10px 20px 5px 20px;
   color: #fff;
   z-index: 3;
+}
+
+#position-07 a:hover {
+  background-color: rgba(0, 0, 0, 1)
+}
+
+/* -- LAYOUT -- */
+
+#layout {
+  background-color: aqua;
+  margin: 0px;
+  box-sizing: border-box;
+  padding-top: 0px;
+  font-size: 10px;
+}
+
+#layout .wrapper {
+  margin: 0px;
+}
+
+/* -- Layout nav stuff -- */
+
+#layout nav {
+  background: lime;
+  margin: 0px;
+}
+
+#layout nav a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-right: 1px solid black;
+  height: 100%;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 0px;
+}
+
+#layout nav a:hover {
+  background-color: green;
+  margin: 0px;
+}
+
+#layout aside {
+  float: right;
+  background: darkorange;
+  position: absolute;
+  right: 0rem;
+  top: 5rem;
+  width: 25%;
+}
+
+#layout aside p {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+#layout main {
+  background-color: white;
+  margin: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#layout main p {
+  padding: 0.5rem 9rem 0rem 0.75rem;
+  margin: 0px;
+}
+
+#layout footer {
+  background-color: red;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  position: sticky;
+  bottom: 0px;
 }
