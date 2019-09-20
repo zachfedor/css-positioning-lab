@@ -219,3 +219,12 @@ section#position-04 {
   top: 33.07px;
   right: 33.07px;
 }
+
+#position-06 div {
+  background-color: lavender;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
