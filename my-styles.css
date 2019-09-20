@@ -81,3 +81,12 @@ visibility: hidden;
    text-align: justify;
  }
 
+ /*Float 03*/
+ article section#float-03 img {
+   float: left;
+   margin: 10px 10px;
+ }
+ article section#float-03 p {
+   clear: both;
+ }
+
