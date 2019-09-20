@@ -89,3 +89,15 @@
  	  display: table;
  	  clear: both;
 	}
+
+#float-05 p:last-of-type { 
+	  float: right;
+	  padding: 5%;
+	  width: 50%;
+	}
+
+#float-05 p:first-of-type {
+	  float: inline-start;
+	  padding: 5%;
+	  width: 50%;
+	}
