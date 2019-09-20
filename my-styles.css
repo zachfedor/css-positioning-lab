@@ -117,14 +117,13 @@
 
 #float-06 p:first-child {
    box-sizing: content-box;
-   width: 40%;
+   width: 45%;
    float: left;
    padding-right: 15px;
    border-right: 1px solid black;
  }
 #float-06 p :nth-child(2) {
-    width: 40%;
-    padding-left: 10px;
+    margin-left: 
 }
 
 #float-06 div p:after {
@@ -132,3 +131,35 @@
       display: table;
       width: 100%;
       clear: both;
+}
+#position-01 div {
+      border: 1px solid red;
+      width: 40px;
+      height: 40px;
+      background-color: red;
+}
+#position-01 div:nth-child(even){
+      position: relative;
+      margin-left: 42px;
+}
+#position-02 div {
+      border: 1px solid blue;
+}
+#position-02 span {
+  position: absolute;
+  top: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
