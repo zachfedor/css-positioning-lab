@@ -104,3 +104,21 @@
   float: right;
   box-sizing: content-box;
 }
+
+#float-06 div p:first-child{
+  box-sizing: content-box;
+  float: left;
+  width: 45%;
+}
+
+#float-06 div p{
+  width: 45%;
+  box-sizing: content-box;
+  float: right;
+
+}
+
+#float-06 > p{
+  box-sizing: content-box;
+  clear: both;
+}
