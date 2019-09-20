@@ -61,8 +61,23 @@ visibility: hidden;
 
  /*Float 01*/
  article section#float-01 img {
-   float: left;
+  float: left;
    margin-top: 10px;
    margin-bottom: 10px;
    margin-right: 10px;
    margin-left: 0;
+
+ }
+
+ /*Float 02*/
+ article section#float-02 img {
+   float: right;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 0;
+   margin-left: 10px;
+ }
+ article section#float-02 p {
+   text-align: justify;
+ }
+
