@@ -63,6 +63,9 @@
   margin-top: 20px;
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+#float-02 p{
   text-align: justify;
 }
 
@@ -86,4 +89,18 @@
   background-color: lightblue;
   float: left;
   margin-right: 10px;
+}
+
+#float-05 p{
+  float: left;
+  box-sizing: content-box;
+  width: 45%;
+
+}
+
+#float-05 p:last-child{
+  padding-left: 40px;
+  border-left: thin solid black;
+  float: right;
+  box-sizing: content-box;
 }
