@@ -1,4 +1,7 @@
 /* Your Stylesheet */
+#top{
+  position: absolute;
+}
 #display-01 div{
   display: inline;
   margin-left: 20px;
@@ -159,6 +162,10 @@
   position: absolute;
   bottom: 0px;
   left: 0px;
+}
+#position-04{
+  position: absolute;
+  top: 0px;
 }
 #position-04 div{
   position: absolute;
