@@ -122,3 +122,8 @@
   box-sizing: content-box;
   clear: both;
 }
+
+#position-01 div{
+  display: inline-block;
+  border: thin solid red;
+}
