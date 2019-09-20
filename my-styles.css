@@ -99,3 +99,18 @@ visibility: hidden;
    background-color: lightblue;
    overflow: auto;
  }
+
+ /*Float 05*/
+ article section#float-05 p:first-child {
+   box-sizing: border-box;
+   width: 50%;
+   float: right;
+   padding-left: 15px;
+   border-left: thin solid black;
+ }
+ article section#float-05 p:nth-child(2) {
+   box-sizing: border-box;
+   width: 50%;
+   float: left;
+   padding-right: 15px;
+ }
