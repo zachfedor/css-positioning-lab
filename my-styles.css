@@ -2,3 +2,24 @@
 
 /* All your edits should go here */
 
+#display-01 div {
+  border: thin solid blue;
+  display: inline;
+  margin: 20px;
+}
+#display-02 span {
+  display: block;
+  border: thin solid red;
+}
+#display-03 div {
+  display: inline-block;
+  border: thin solid green;
+  width: 69px;
+  height: 69px;
+}
+#display-04 div:first-child {
+  display: none;
+}
+#display-05 a {
+  background-color: lightblue
+}
