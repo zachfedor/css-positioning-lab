@@ -46,3 +46,46 @@
           border: 10px solid black;
           margin-left: 20%;
 	}
+
+#float-01 img {
+	  float: left;
+	  margin-right: 20px;
+	  margin-top: 25px;
+	}
+
+#float-02 img {
+	  float: right;
+	  margin-left: 20px;
+	  margin: 25px;
+	}
+
+#float-02 p {
+	  text-align: justify;
+	}
+
+#float-03 img {
+	  float: left; 
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+	  margin-left: 10px;
+	  margin-right: 20px;
+	}
+
+#float-03 .clear {
+	  clear: left;
+	}
+
+#float-04 img {
+	  float: left;
+	  margin: 10px;
+	  margin-bottom: 10px;
+	  margin-left: 10px;
+	  margin-right: 20px;
+	  }
+
+#float-04 div {
+	  background-color: lightblue;
+	  content: "";
+ 	  display: table;
+ 	  clear: both;
+	}
