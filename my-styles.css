@@ -1,4 +1,182 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
+#display-01 div {
+  display: inline;
+  border: solid blue thin;
+  margin: 10px;
+}
+#display-02  span {
+  display: block;
+  border: solid red thin;
+}
+#display-03  div {
+  display: inline-block;
+  border: 1px solid green;
+  width: 80px;
+  height: 80px;
+}
+#display-04 div:nth-of-type(odd) {
+  visibility: hidden;
+}
+#display-05 a {
+  display: inline-block;
+  box-sizing: border-box;
+  background: gray;
+  width: 50%;
+  padding: 5%;
+  margin-left: 25%
+}
+#boxmodel-01 div {
+  margin-right: 25%;
+  margin-left: 25%;
+  border: solid thick green;
+  padding: 3%
+  }
+#boxmodel-02 div  {
+  margin-right: 25%;
+  margin-left: 25%;
+  border: solid thick green;
+  padding: 3%;
+  box-sizing: content-box;
+}
+#float-01 img {
+  float: left;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-left: 0%;
+}
+#float-02 img {
+  float: right;
+  margin-top: 10%;
+  margin-right: 0%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+#float-02 p {
+  text-align: justify;
+}
+#float-03 image {
+  float: left;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
 
+}
+#float-03 p.clear {
+  clear: left;
+}
+#float-04 img {
+  float: left;
+  margin: 10%;
+}
+section#float-04 {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+#float-04 :first-child{
+  background-color: lightblue;
+}
+#float-05  :first-child {
+  float: left;
+  width: 40%;
+  padding-right: 10%;
+  border-right: thin solid black;
+}
+#float-05   :nth-child(2n){
+  float: right;
+  width: 40%;
+}
+#float-06 div{
+  float: left;
+  width: 45%;
+  padding: 10px;
+  border: boxmodel;
+
+}
+#float-06 p:last-child{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+#float-06 p:nth-of-type(2n){
+  float: right;
+  width: 45%;
+}
+#position-01 div  {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+}
+#position-01 :nth-child(2n){
+  position: relative;
+  left: 60px;
+}
+#position-02 div {
+  border: solid thin black;
+
+
+}
+#position-02 div :first-child{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#position-02 div :nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#position-02 div :nth-child(3n) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  }
+#position-02 div :last-child{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#position-03 div {
+  border: 1px solid;
+  border-color: green;
+  height: 100px;
+
+}
+#position-03  span:nth-of-type(1){
+  position: absolute;
+  left: 50px;
+  top: 60px;
+
+}
+#position-03  span:nth-of-type(2){
+  position: absolute;
+  right: 50px;
+  top: 60px;
+
+}
+#position-03  span:nth-of-type(3){
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+
+}
+#position-03  span:nth-of-type(4){
+  position: absolute;
+  left: 50px;
+  bottom: 60px;
+}
+#position-04 div {
+  position: static;
+
+}
+#position-04 div {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
