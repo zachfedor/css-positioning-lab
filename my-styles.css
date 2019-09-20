@@ -241,9 +241,10 @@
   position: absolute;
   top: 200px;
   right: 250px;
-  background-color: maroon;
+  background-color: salmon;
   width: 20%;
-  border-top: thick solid red;
+  border-top: thick solid orangered;
+  padding-bottom: 90px;
 }
 #layout aside p{
   font-size: 12px;
@@ -252,16 +253,16 @@
   padding right: 10px;
 }
 #wrapper{
-  background-color: darkcyan;
+  background-color: steelblue;
 }
 #layout main{
-  background-color: black;
+  background-color: white;
   width: 50%;
   margin: 0px 0px 0px 60px;
   padding-right: 300px;
 }
 #layout main p{
-  color: white;
+  color: black;
   font-size:12px;
   margin: 0px 0px 0px 0px;
   padding-top: 12px;
@@ -270,8 +271,8 @@
   padding-right: 8px;
 }
 #wrapper footer{
-  position: fixed;
-  background-color: darkred;
+  background-color: palevioletred;
+  font-size: 12px;
 }
 
 /* All your edits should go here */
