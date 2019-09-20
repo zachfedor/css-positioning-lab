@@ -1,4 +1,98 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
+#display-01 div {
+  display: inline;
+  border: thin solid blue;
+  margin: 20px;
 
+}
+
+#display-02 span {
+  display: block;
+  border: thin solid red;
+}
+
+#display-03 div {
+  display: inline-block;
+  border: thin solid green;
+  height: 100px;
+  width: 100px;
+}
+
+#display-04 div:nth-of-type(odd) {
+  visibility: hidden;
+}
+
+#display-05 a {
+  display: inline-block;
+  box-sizing: border-box;
+  background: grey;
+  width: 50%;
+  padding: 2%;
+  margin-left: 25%;
+}
+
+#boxmodel-01 div {
+  border: 10px solid red;
+  padding: 6%;
+  margin: 0 25% 0 25%;
+  ;
+}
+
+#boxmodel-02 div {
+  box-sizing: border-box;
+  border: 10px solid red;
+  padding: 6%;
+  margin: 0 25% 0 25%;
+}
+
+#float-01 img {
+  float: left;
+  margin: 20px 20px 10px 0;
+}
+
+#float-02 img {
+  float: right;
+  margin: 20px 0 10px 20px;
+}
+
+#float-02 p {
+  text-align: justify;
+}
+#float-03 img {
+  float: left;
+  margin: 20px 20px 20px 20px;
+}
+
+.clear {
+  clear: left;
+}
+
+#float-04 img {
+  float: left;
+  margin: 20px 20px 20px 20px;
+}
+#float-04 div {
+  background-color: lightblue;
+  overflow: auto;
+}
+
+#float-05 p:first-child {
+  float: left;
+  padding-left: 10px;
+  width: 40%;
+}
+
+#float-05 p:nth-child(2) {
+  float: right;
+  padding-right: 10px;
+  width: 40%;
+  border-left-style: solid;
+  padding-left: 150px;
+}
+
+#float-06 div p {
+
+
+}
