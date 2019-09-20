@@ -181,3 +181,14 @@
   position: absolute;
   top: 64%;
 }
+
+body {
+  position: relative;
+}
+section#position-04 {
+  position: static;
+}
+#position-04 div {
+  position: absolute;
+  top: 0px;
+}
