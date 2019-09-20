@@ -171,5 +171,33 @@
   position: absolute;
   top: 0px;
 }
+.outer-box:first-child{
+  box-sizing: border-box;
+  float: left;
+  width: 4rem;
+  height: 4rem;
+  background-color: lightgray;
+}
+.outer-box:last-child{
+  box-sizing: border-box;
+  float: right;
+  width: 4rem;
+  height: 4rem;
+  background-color: lightgray;
+}
+.inner-box{
+  box-sizing: border-box;
+  width: 1rem;
+  height: 1rem;
+  background-color: darkgray;
+}
+#position-06 div{
+  background-color: lavender;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
 
 /* All your edits should go here */
