@@ -88,3 +88,144 @@ html {
 background-color: lightblue;
 display: flow-root;
 }
+
+#float-05 p:nth-of-type(1) {
+  float: left;
+  border-right: solid 1px;
+  padding: 15px;
+  width: 50%;
+}
+
+#float-05 p:nth-of-type(2) {
+  float: right;
+  padding: 15px;
+  width: 50%;
+}
+
+#float-06 p {
+  box-sizing: border-box;
+}
+
+#float-06 div p:first-child {
+  float: left;
+  border-right: solid 2px;
+  padding: 20px;
+  width: 50%;
+}
+
+#float-06 div p:last-child {
+  float: right;
+  padding: 20px;
+  width: 50%;
+}
+
+#float-06 div::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+#position-01 div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+#position-01 div:nth-child(even) {
+  position: relative;
+  left: 50px;
+}
+
+#position-02 div {
+  border: solid 1px;
+}
+
+#position-02 span:first-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#position-02 span:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#position-02 span:nth-child(3) {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#position-02 span:nth-child(4) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#position-03 div {
+  position: relative;
+  border: solid 1px;
+  height: 100px;
+}
+
+#position-03 span:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#position-03 span:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#position-03 span:nth-child(3) {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#position-03 span:nth-child(4) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+section#position-04 {
+    position: static;
+}
+
+#position-04 div {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#position-06 div {
+  background-color: lavender;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#position-07 a {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  background-color: lightblue;
+  color: lightblue;
+  z-index: 3;
+}
+
+#position-07 a:hover {
+  background-color: Red;
+}
