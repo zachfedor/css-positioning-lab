@@ -2,3 +2,210 @@
 
 /* All your edits should go here */
 
+/*Display 01*/
+article section#display-01 div {
+  display: inline;
+  box-sizing: border-box;
+  border: 1px solid #000099;
+  margin: 20px;
+}
+
+/*Display 02*/
+article section#display-02 span {
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid #990000;
+}
+
+/*Display 03*/
+article section#display-03 div {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #009900;
+  width: 50px;
+  height: 50px;
+}
+
+/*Display 04*/
+article section#display-04 div:first-child {
+visibility: hidden;
+ }
+
+ /*Display 05*/
+ article section#display-05 a {
+   box-sizing: border-box;
+   display: block;
+   background-color: grey;
+   width: 50%;
+   padding: 10px;
+   position: relative;
+   margin: auto;
+ }
+
+ /*Box Model 01*/
+ article section#boxmodel-01 div {
+   width: 50%;
+   margin: auto;
+   border: thick solid;
+   padding: 3rem;
+ }
+
+/*Box Model 02*/
+ article section#boxmodel-02 div {
+   box-sizing: border-box;
+   width: 50%;
+   margin: auto;
+   border: thick solid;
+   padding: 3rem;
+ }
+
+ /*Float 01*/
+ article section#float-01 img {
+  float: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 0;
+
+ }
+
+ /*Float 02*/
+ article section#float-02 img {
+   float: right;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 0;
+   margin-left: 10px;
+ }
+ article section#float-02 p {
+   text-align: justify;
+ }
+
+ /*Float 03*/
+ article section#float-03 img {
+   float: left;
+   margin: 10px 10px;
+ }
+ article section#float-03 p {
+   clear: both;
+ }
+
+ /*Float 04*/
+ article section#float-04 img {
+   float: left;
+   margin: 10px;
+ }
+ article section#float-04 div {
+   background-color: lightblue;
+   overflow: auto;
+ }
+
+ /*Float 05*/
+ article section#float-05 p:first-child {
+   box-sizing: border-box;
+   width: 50%;
+   float: right;
+   padding-left: 15px;
+   border-left: thin solid black;
+ }
+ article section#float-05 p:nth-child(2) {
+   box-sizing: border-box;
+   width: 50%;
+   float: left;
+   padding-right: 15px;
+ }
+
+ /*Float 06*/
+article section#float-06 div p:first-child {
+   box-sizing: border-box;
+   width: 50%;
+   float: right;
+   padding-left: 15px;
+   border-left: thin solid black;
+ }
+ article section#float-06 div p:nth-child(2) {
+   box-sizing: border-box;
+   width: 50%;
+   float: left;
+   padding-right: 15px;
+ }
+ article section#float-06 div {
+   overflow: auto;
+ }
+
+ /*Position 01*/
+ article section#position-01 div {
+   background-color: red;
+   width: 40px;
+   height: 40px;
+ }
+ article section#position-01 div:nth-child(even) {
+   position: relative;
+   left: 40px;
+ }
+
+ /*Position 02*/
+ article section#position-02 div {
+   border: thin solid black;
+ }
+ article section#position-02 div span:nth-child(1) {
+   position: absolute;
+   top: 0; 
+   left: 0;
+ }
+ article section#position-02 div span:nth-child(2) {
+   position: absolute;
+   top: 0;
+   right: 0;
+ }
+ article section#position-02 div span:nth-child(3) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ }
+article section#position-02 div span:nth-child(4) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }
+
+ /*Position 03*/
+ article section#position-01 div {
+   background-color: red;
+   width: 40px;
+   height: 40px;
+ }
+ article section#position-01 div:nth-child(even) {
+   position: relative;
+   left: 40px;
+ }
+
+ /*Position 02*/
+ article section#position-03 div {
+   position: relative;
+   padding: 0;
+   border: thin solid black;
+   height: 100px;
+ }
+ article section#position-03 div span:nth-child(1) {
+   position: absolute;
+   top: 0; 
+   left: 0;
+ }
+ article section#position-03 div span:nth-child(2) {
+   position: absolute;
+   top: 0;
+   right: 0;
+ }
+ article section#position-03 div span:nth-child(3) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ }
+article section#position-03 div span:nth-child(4) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }
+
+
