@@ -1,4 +1,287 @@
 /* Your Stylesheet */
-
 /* All your edits should go here */
+#display-01 div {
+  display: inline;
+  border: 1px solid;
+  border-color: blue;
+  padding: 0px;
+  margin: 20px;
+}
 
+#display-02 span {
+  display: block;
+  border: 1px solid;
+  border-color: red;
+}
+
+#display-03 div {
+  display: inline-block;
+  border: 1px solid;
+  border-color: green;
+  width: 10%;
+  height: 0;
+  padding-bottom: 10%;
+}
+
+#display-04 div:nth-of-type(1) {
+  visibility: hidden;
+}
+
+#display-05 a {
+  display: inline-block;
+  background-color: green;
+  padding: 30px 5px;
+  margin: 0% 25%;
+  width: 50%;
+}
+
+#boxmodel-01 div {
+  width: 50%;
+  margin: 0% 25%;
+  padding: 50px;
+  border: 15px solid;
+  border-color: green;
+}
+
+#boxmodel-02 div {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0% 25%;
+  padding: 50px;
+  border: 15px solid;
+  border-color: green;
+}
+
+#float-01 img {
+  float: left;
+  margin: 35px 10px 10px 0px;
+}
+
+#float-02 img {
+  float: right;
+  margin: 35px 0px 10px 10px;
+}
+
+#float-02 p {
+  text-align: justify;
+  text-justify: auto;
+}
+
+#float-03 img {
+  float: left;
+  margin: 15px;
+}
+
+#float-03 p.clear {
+  clear: both;
+}
+
+#float-04 img {
+  float: left;
+  margin: 15px;
+}
+
+#float-04 div {
+  background-color: #ADD8E6;
+  display: flow-root;
+}
+
+#float-05 p:nth-of-type(1) {
+  float: left;
+  padding: 15px;
+  width: 45%;
+  border-right: 1px solid;
+}
+
+#float-05 p:nth-of-type(2) {
+  float: right;
+  padding: 15px;
+  width: 45%;
+}
+
+#float-06 div p:nth-of-type(1) {
+  float: left;
+  padding: 15px;
+  width: 45%;
+  border-right: 1px solid;
+}
+
+#float-06 div p:nth-of-type(2) {
+  float: right;
+  padding: 15px;
+  width: 45%;
+}
+
+#float-06 p {
+  clear: both;
+}
+
+#position-01 div {
+  background-color: red;
+  width: 10%;
+  height: 0;
+  padding-bottom: 10%;
+}
+
+#position-01 div:nth-child(even) {
+  margin-left: 10%;
+  background-color: red;
+  width: 10%;
+  height: 0;
+  padding-bottom: 10%;
+}
+
+#position-02 div {
+  border: 1px solid;
+  border-color: green;
+}
+
+#position-02 span:nth-of-type(1) {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#position-02 span:nth-of-type(2) {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#position-02 span:nth-of-type(3) {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#position-02 span:nth-of-type(4) {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#position-03 div {
+  border: 1px solid;
+  border-color: green;
+  height: 100px;
+}
+
+#position-03 span:nth-of-type(1) {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+
+#position-03 span:nth-of-type(2) {
+  position: absolute;
+  right: 60px;
+  top: 50px;
+}
+
+#position-03 span:nth-of-type(3) {
+  position: absolute;
+  right: 60px;
+  bottom: 55px;
+}
+
+#position-03 span:nth-of-type(4) {
+  position: absolute;
+  left: 60px;
+  bottom: 55px;
+}
+
+#position-04 div {
+  position: absolute;
+  top: -10900px;
+  left: 50%;
+}
+
+#position-05 div.outer-box {
+  width: 4rem;
+  height: 4rem;
+  background-color: #D3D3D3;
+}
+
+#position-05 div.outer-box:nth-of-type(1) {
+  position: relative;
+  left: 1300px;
+  top: 110px;
+}
+
+#position-05 div.inner-box {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  background-color: #A9A9A9;
+}
+
+#position-05 div.inner-box:nth-of-type(1) {
+  position: relative;
+  left: 45px;
+  top: 45px;
+}
+
+#position-06 div {
+  position: absolute;
+  background-color: lavender;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#position-07 a {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px;
+  background-color: green;
+  margin: 5px;
+}
+
+#position-07 a:hover {
+  background-color: yellow;
+}
+
+#layout nav {
+  height: 60px;
+  background: #b7d84b;
+}
+
+#layout nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  line-height: 60px;
+  border-right: 1px solid #91ab3b;
+  float: left;
+}
+
+#layout aside {
+  position: absolute;
+  top: 200px;
+  bottom: 200px;
+  right: -80px;
+  width: 400px;
+  padding: 0 20px;
+  border-top: 5px solid #f95b34;
+  background: #fa8366;
+}
+
+#layout aside p {
+  display: block;
+}
+
+#layout main p {
+  width: 70%;
+}
+
+#layout footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #f36283;
+}
