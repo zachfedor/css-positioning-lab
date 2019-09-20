@@ -1,4 +1,165 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
+#display-01 div {
+  display: inline;
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+#display-02 {
+  padding: 0px;
+}
+
+#display-02 span {
+  display: block;
+  border: 1px solid red;
+  border-width: 100%;
+}
+
+#display-03 div {
+  display: inline-block;
+  border: 1px solid green;
+  width: 50px;
+  height: 50px;
+}
+
+#display-04 div:first-child {
+  color: white;
+}
+
+#display-05 a {
+  display: inline-block;
+  position: absolute;
+  padding-top: 10px;
+  background-color: pink;
+  border: 1px solid pink;
+  width: 50%;
+  left: 25%;
+  top: 25%;
+}
+
+#boxmodel-01 div {
+    margin: 0 auto;
+    border: 7px solid black;
+    padding: 20px;
+    width: 50%;
+  }
+
+
+#boxmodel-02 {
+  padding: 40px;
+}
+#boxmodel-02 div {
+  margin: 0 auto;
+  border: 7px solid black;
+  padding: 20px;
+  width: 50%;
+}
+
+#float-01 img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+#float-02 {
+  text-align: justify;
+}
+
+#float-02 img {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+#float-03 img {
+  float: left;
+  margin: 20px;
+}
+
+.clear {
+  clear: left;
+}
+
+#float-04 img {
+  float: left;
+  margin: 20px;
+}
+
+#float-04 div {
+  background-color: aliceblue;
+}
+
+#float-04 div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#float-05 {
+  text-align: justify;
+}
+
+#float-05 p:first-child {
+  box-sizing: content-box;
+  width: 45%;
+  float: left;
+  padding: 13px;
+  border-right: 1px solid black;
+}
+ #float-05 p {
+   width: 45%;
+   float: right;
+
+ }
+
+#float-06 p:first-child {
+   box-sizing: content-box;
+   width: 45%;
+   float: left;
+   padding-right: 15px;
+   border-right: 1px solid black;
+ }
+#float-06 p :nth-child(2) {
+    margin-left: 
+}
+
+#float-06 div p:after {
+      content: "";
+      display: table;
+      width: 100%;
+      clear: both;
+}
+#position-01 div {
+      border: 1px solid red;
+      width: 40px;
+      height: 40px;
+      background-color: red;
+}
+#position-01 div:nth-child(even){
+      position: relative;
+      margin-left: 42px;
+}
+#position-02 div {
+      border: 1px solid blue;
+}
+#position-02 span {
+  position: absolute;
+  top: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
