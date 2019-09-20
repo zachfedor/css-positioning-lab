@@ -95,5 +95,28 @@
   position: absolute;
   left: 50%;
 }
+#float-06 p:first-of-type{
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+ #float-06 p:nth-of-type(even){
+  float: right;
+  width: 40%;
+  padding:20px;
+}
+#float-06 div{
+  padding: 10px;
+  overflow: auto;
+}
+#position-01 div{
+  background-color: red;
+  display:inline;
+  padding: 40px;
+}
+#position-01 div:nth-of-type(even){
+  position: relative;
+ right: 20px;
+}
 
 /* All your edits should go here */
