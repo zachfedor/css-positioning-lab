@@ -74,8 +74,11 @@
   margin-bottom: 30px;
   margin-top: 30px;
 }
-#float--4 div{
-  background: blue;
-  border:4px blue;
+#float-04 div{
+  border:4px solid rgb(79,185,227);
+  background-color: rgb(79,185,227);
+  padding: 10px;
+  color: #fff;
+  overflow: auto;
 }
 /* All your edits should go here */
