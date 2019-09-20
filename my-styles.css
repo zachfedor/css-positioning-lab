@@ -1,4 +1,278 @@
 /* Your Stylesheet */
+#top{
+  position: absolute;
+}
+#display-01 div{
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: thin solid blue;
+}
+#display-02 span{
+  display: block;
+  border: thin solid red;
+  width: 100%;
+}
+#display-03 div{
+  display: inline-block;
+  border: thin solid green;
+  width: 100px;
+  height: 100px;
+}
+#display-04 div:nth-of-type(1){
+  display:none;
+}
+#display-05 a{
+  display: block;
+  width: 50%;
+  background-color: yellow;
+  padding: 20px 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#boxmodel-01 div{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  border: thick solid red;
+}
+#boxmodel-02 div{
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  border: thick solid red;
+}
+#float-01 img{
+  float: left;
+  margin: 20px 20px 20px 0px;
+}
+#float-02 img{
+  float: right;
+  margin: 20px 0px 20px 20px
+}
+#float-02 p{
+  text-align: justify;
+}
+#float-03 img{
+  float: left;
+  margin: 20px 20px 20px 20px;
+}
+#float-03 .clear{
+  clear:left;
+}
+#float-04 img{
+  float: left;
+  margin: 20px 20px 20px 20px;
+}
+#float-04 div{
+  background-color: lightblue;
+}
+#float-04 div:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#float-05 p:first-child{
+  box-sizing: border-box;
+  float:left;
+  width: 50%;
+  padding: 5px 5px 5px 5px;
+  border-right: thin solid red;
+}
+#float-05 p:last-child{
+  box-sizing: border-box;
+  width: 50%;
+  float:right;
+  padding: 5px 5px 5px 5px;
+}
+#float-06 div p:first-child{
+  box-sizing: border-box;
+  float:left;
+  width: 50%;
+  padding: 5px 5px 5px 5px;
+  border-right: thin solid red;
+}
+#float-06 div p:last-child{
+  box-sizing: border-box;
+  width: 50%;
+  float:right;
+  padding: 5px 5px 5px 5px;
+}
+#float-06 div + p{
+  content: "";
+  display: table;
+  clear: both;
+}
+#position-01 div{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+#position-01 div:nth-child(even){
+  position: relative;
+  left:50px;
+}
+#position-02 div{
+  border: thin solid red;
+}
+#position-02 div :first-child{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#position-02 div :nth-child(2){
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#position-02 div :nth-child(3){
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+}
+#position-02 div :last-child{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+#position-03 div{
+  border: thin solid red;
+  height: 100px;
+  position: relative;
+}
+#position-03 div :first-child{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#position-03 div :nth-child(2){
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#position-03 div :nth-child(3){
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+#position-03 div :last-child{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+#position-04{
+  position: static;
+
+}
+#position-04 div{
+  position: absolute;
+  top: 0px;
+}
+.outer-box:first-child{
+  box-sizing: border-box;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-color: lightgray;
+  top: 0px;
+  left: 0px;
+}
+.outer-box:last-child{
+  box-sizing: border-box;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-color: lightgray;
+  top: 0px;
+  right: 0px;
+}
+.outer-box:first-child .inner-box{
+  box-sizing: border-box;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: darkgray;
+}
+.outer-box:last-child .inner-box{
+  box-sizing: border-box;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: darkgray;
+}
+#position-06 div{
+  background-color: lavender;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+#position-07 a{
+  position: fixed;
+  background-color: red;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px 10px 10px 10px;
+}
+#position-07 a:hover{
+  background-color: darkred;
+}
+#layout nav{
+  background-color: yellowgreen;
+  height:50px;
+  font-size: 12px
+}
+#layout nav a{
+  float:left;
+  padding: 10px 10px 10px 10px;
+}
+#layout nav a:hover{
+  background-color: olivedrab;
+}
+#layout aside{
+  position: absolute;
+  top: 200px;
+  right: 250px;
+  background-color: salmon;
+  width: 20%;
+  border-top: thick solid orangered;
+  padding-bottom: 90px;
+}
+#layout aside p{
+  font-size: 12px;
+  color: white;
+  padding-left: 10px;
+  padding right: 10px;
+}
+#wrapper{
+  background-color: steelblue;
+}
+#layout main{
+  background-color: white;
+  width: 50%;
+  margin: 0px 0px 0px 60px;
+  padding-right: 300px;
+}
+#layout main p{
+  color: black;
+  font-size:12px;
+  margin: 0px 0px 0px 0px;
+  padding-top: 12px;
+  padding-left: 8px;
+  padding-bottom: 12px;
+  padding-right: 8px;
+}
+#wrapper footer{
+  background-color: palevioletred;
+  font-size: 12px;
+}
 
 /* All your edits should go here */
-
