@@ -132,3 +132,14 @@ article section#float-06 div p:first-child {
  article section#float-06 div {
    overflow: auto;
  }
+
+ /*Position 01*/
+ article section#position-01 div {
+   background-color: red;
+   width: 40px;
+   height: 40px;
+ }
+ article section#position-01 div:nth-child(even) {
+   position: relative;
+   left: 40px;
+ }
