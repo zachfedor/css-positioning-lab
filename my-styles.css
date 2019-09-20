@@ -1,4 +1,78 @@
 /* Your Stylesheet */
+#display-01 div{
+  border: 1px solid blue;
+  display:inline;
+  margin: 60px;
+}
+#display-02 span{
+  display:block;
+  border: 1px solid red;
+  width: 100%;
+}
+#display-03 div{
+  display:inline;
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  border: 1px solid green;
+  background: white;
+}
+#display-04 div:nth-of-type(1){
+  display:none;
+}
+#display-05 a{
+  display: block;
+  width: 50%;
+  background: black;
+  padding: 10px;
+ margin-right: 25%;
+ margin-left: 25%;
+}
+#boxmodel-01 div{
+  border: 1rem solid red;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+}
+#boxmodel-02 div{
+  box-sizing: content-box;
+  border: 1rem solid red;
+  width: 40%;
+  margin: auto;
+  padding:30px;
+}
+#float-01 img{
+  float: left;
+  margin: 1%;
+  margin-left: 0%;
+}
+#float-02 img{
+  float: right;
+  margin: 2%;
+  margin-right: 0%;
+}
+
+#float-03 img{
+  float: left;
+  margin:2%;
+}
+#float-03 p.clear{
+  clear:left;
+  margin:2%;
+}
+#float-04 img{
+  float: left;
+  margin:2%;
+}
+#float-04 div{
+  display:flow-root;
+  background:cyan;
+}
+#float-05 p{
+  display:inline;
+
+}
+
 
 /* All your edits should go here */
-
