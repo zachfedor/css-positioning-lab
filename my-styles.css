@@ -1,4 +1,132 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
+#display-01 div{
+ display: inline;
+ border: thin solid blue;
+ margin: 20px;
+}
+#display-02 span{
+display: block;
+border: thin solid red;
+
+}
+#display-03 div{
+display: inline-block;
+box-sizing: border-box;
+width: 100px;
+height: 100px;
+border: thin solid green;
+
+}
+
+#display-04 div:nth-of-type(1){
+    Display: none;
+}
+
+#display-05 a[href]{
+position: relative;
+display: block;
+background: gray;
+width: 50%;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#boxmodel-01 div{
+display: block;
+width: 50%;
+border: thick solid green;
+border-width: 20px;
+padding: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#boxmodel-02 div{
+display: block;
+width: 50%;
+border: thick solid green;
+border-width: 20px;
+padding: 50px;
+margin-left: auto;
+margin-right: auto;
+box-sizing: border-box;
+}
+#float-01 img {
+float: left;
+margin-top: 25px;
+margin-right: 20px;
+margin-bottom: 5px;
+}
+
+#float-02 p {
+text-align : justify;
+}
+
+#float-02 img {
+float: right;
+margin: 20px;
+}
+
+#float-03 p.clear{
+float: left;
+margin: 20px;
+}
+
+#float-03 img{
+float: left;
+margin: 20px;
+}
+
+#float-04 div{
+float: left;
+margin-bottom: 10px;
+background: lightblue;
+}
+
+#float-04 img{
+    float: left;
+    margin: 20px;
+    }
+#float-05 p:first-child {
+        box-sizing: content-box;
+        width: 45%;
+        float: left;
+        border-right: thin solid black;
+        margin-right: 35px;
+        padding-right: 20px;
+        }
+
+#float-06 p:first-child {
+    box-sizing: content-box;
+    width: 45%;
+    float: left;
+    border-right: thin solid black;
+    margin-right: 35px;
+    padding-right: 20px;
+}
+#float-06 p:nth-child (2) {
+box-sizing: content-box;
+width: 45%;
+float: right;
+margin-right: 35px;
+padding-right: 20px;
+}
+
+#float-06 div{
+box-sizing: content-box;
+float: left;
+padding: 20px;
+
+}
+#float-06 >p{
+clear: both;
+padding-bottom: 20px;
+}
+
+
+
+
 
