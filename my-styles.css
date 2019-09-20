@@ -90,3 +90,12 @@ visibility: hidden;
    clear: both;
  }
 
+ /*Float 04*/
+ article section#float-04 img {
+   float: left;
+   margin: 10px;
+ }
+ article section#float-04 div {
+   background-color: lightblue;
+   overflow: auto;
+ }
