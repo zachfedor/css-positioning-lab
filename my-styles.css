@@ -192,5 +192,46 @@ height: 100px;
     bottom: 0px;
     left: 0px;
 }
+
+
+
+section#position-04 {
+    position: static;
+}
+
+#position-04 div {
+    position:  absolute;
+    top: 5px;
+    left: 0px;
+}
+
+#position-05 .outer-box{
+    box-sizing: content-box;
+    background: lightgray;
+    width: 4rem;
+    height: 4rem;
+    float: left;
+    
+}
+#position-05 .outer-box:nth-child(1){
+    float: right;
+    position: relative;
+    top: 0px;
+}
+#position-05 .inner-box{
+    box-sizing: content-box;
+    background: darkgray;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    bottom: -26px;
+    right: -27px;
+    
+}
+#position-05 .innerbox{
+
+    
+
+}
 /* All your edits should go here */
 
