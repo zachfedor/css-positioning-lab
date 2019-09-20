@@ -1,4 +1,281 @@
 /* Your Stylesheet */
 
-/* All your edits should go here */
 
+/* ----Display---- */
+
+#display-01 div {
+  display: inline;
+  border: thin solid blue;
+  margin: 20px;
+}
+
+#display-02 span {
+  display: block;
+  border: thin solid red;
+  width: 100%;
+}
+
+#display-03 div {
+  display: inline-block;
+  border: thin solid green;
+  width: 50px;
+  height: 50px;
+}
+
+#display-04 div:nth-of-type(1) {
+  display:none;
+}
+
+#display-05 a {
+  display: block;
+  width: 50%;
+  background-color: skyblue;
+  padding: 10px 0px 10px 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+/* ----Box Model---- */
+
+#boxmodel-01 div {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  border: thick solid;
+}
+
+#boxmodel-02 div {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  border: thick solid;
+  box-sizing: border-box;
+}
+
+
+/* ----Float---- */
+
+#float-01 img {
+  float: left;
+  margin: 25px 20px 20px 0px;
+}
+
+#float-02 img {
+  float: right;
+  margin: 25px 0px 20px 20px;
+}
+#float-02 p {
+  text-align: justify;
+}
+
+#float-03 img {
+  float: left;
+  margin: 20px;
+}
+#float-03 p.clear {
+  clear: left;
+}
+
+#float-04 img {
+  float: left;
+  margin: 20px;
+}
+#float-04 div {
+  background-color: lightblue;
+}
+#float-04 div ::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#float-05 p:first-of-type {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+}
+#float-05 p:last-of-type {
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+  border-left: thin solid;
+}
+
+#float-06 div p:first-of-type {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+  border-right: thin solid;
+}
+#float-06 div p:last-of-type {
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+}
+#float-06 p:only-of-type {
+  content: "";
+  clear: both;
+}
+
+
+/* ----Position---- */
+
+#position-01 div {
+  background-color: red;
+  width: 60px;
+  height: 60px;
+}
+#position-01 div:nth-child(even) {
+  position: relative;
+  left: 60px;
+}
+
+#position-02 div {
+  border: thin solid;
+}
+#position-02 span:nth-child(1){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#position-02 span:nth-child(2){
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#position-02 span:nth-child(3){
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+#position-02 span:nth-child(4){
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#position-03  div {
+  position: relative;
+  border: thin solid;
+  height: 100px;
+}
+#position-03 span:nth-child(1){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#position-03 span:nth-child(2){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#position-03 span:nth-child(3){
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+#position-03 span:nth-child(4){
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+body {
+  position: relative;
+}
+section#position-04 {
+  position: static;
+}
+#position-04 div {
+  position: absolute;
+  top: 0px;
+}
+
+#position-05 .outer-box {
+  width: 4rem;
+  height: 4rem;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0px;
+}
+#position-05 .outer-box:first-of-type {
+  left: 0px;
+}
+#position-05 .outer-box:last-of-type {
+  right: 0px;
+}
+#position-05 .inner-box {
+  width: 1rem;
+  height: 1rem;
+  background-color: darkgray;
+  position: absolute;
+  top: 33.07px;
+  right: 33.07px;
+}
+
+#position-06 div {
+  background-color: lavender;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#position-07 a {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: #7d7d7d;
+  padding: 10px;
+}
+#position-07 a:hover {
+  background-color: darkgray;
+}
+
+
+/* ----Layout---- */
+
+#layout div {
+  background-color: cyan;
+  box-sizing: border-box;
+}
+#layout div::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+#layout nav {
+  background-color: #91ab3b;
+}
+#layout nav a {
+  display: inline-block;
+  text-align: center;
+  background-color: #91ab3b;
+  width: 90px;
+  height: 90px;
+  margin: 0px;
+  border-right: thin solid black;
+}
+#layout main {
+  background-color: white;
+  width: 50%;
+  float: left;
+}
+#layout aside {
+  width: 30%;
+  float: right;
+  background-color: orange;
+  border-top: thick solid darkorange;
+}
+#layout footer {
+  clear: both;
+  background-color: pink;
+}
