@@ -67,4 +67,15 @@
 #float-03 p:nth-of-type(even){
   clear: both;
 }
+#float-04 img{
+  float: left;
+  margin-left:30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#float--4 div{
+  background: blue;
+  border:4px blue;
+}
 /* All your edits should go here */
