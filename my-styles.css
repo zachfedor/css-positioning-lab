@@ -169,5 +169,43 @@ article section#position-02 div span:nth-child(4) {
     bottom: 0;
  }
 
+ /*Position 03*/
+ article section#position-01 div {
+   background-color: red;
+   width: 40px;
+   height: 40px;
+ }
+ article section#position-01 div:nth-child(even) {
+   position: relative;
+   left: 40px;
+ }
+
+ /*Position 02*/
+ article section#position-03 div {
+   position: relative;
+   padding: 0;
+   border: thin solid black;
+   height: 100px;
+ }
+ article section#position-03 div span:nth-child(1) {
+   position: absolute;
+   top: 0; 
+   left: 0;
+ }
+ article section#position-03 div span:nth-child(2) {
+   position: absolute;
+   top: 0;
+   right: 0;
+ }
+ article section#position-03 div span:nth-child(3) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ }
+article section#position-03 div span:nth-child(4) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }
 
 
