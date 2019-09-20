@@ -1,4 +1,340 @@
 /* Your Stylesheet */
 
 /* All your edits should go here */
+#display-01 div {
+  display: inline;
+  border: 1px solid blue;
+  margin-left: 0px;
+  margin-right:20px;
+}
 
+#display-02 span {
+  display: block;
+  border: 1px solid red;
+  width: 100%;
+}
+
+#display-03 div {
+  display: inline-block;
+  border: 1px solid green;
+  height: 4rem;
+  width: 4rem;
+}
+
+#display-04 div:first-of-type {
+  visibility: hidden;
+}
+
+#display-05 a {
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  background-color: grey;
+  padding: 5px 0px 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -- BOX MODEL -- */
+
+#boxmodel-01 div {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: 10px solid black;
+}
+
+#boxmodel-02 div {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 10px solid black;
+}
+
+/* -- FLOAT -- */
+
+#float-01 img {
+  float: left;
+  margin: 16px 10px 7px 0px;
+}
+
+#float-02 img {
+  float: right;
+  margin: 16px 0px 7px 10px;
+}
+
+#float-02 p {
+  text-align: justify;
+}
+
+#float-03 img {
+  float: left;
+  margin: 16px 10px 7px 10px;
+}
+
+#float-03 .clear {
+  clear: left;
+}
+
+#float-04 img {
+  float: left;
+  margin: 16px 10px 7px 10px;
+}
+
+#float-04 div {
+  background-color: aliceblue;
+}
+
+#float-04 div::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#float-05 p {
+  box-sizing: border-box;
+}
+
+#float-05 p:first-child {
+  float: left;
+  width: 50%;
+  border-right: 2px solid black;
+  padding: 20px;
+}
+
+#float-05 p:last-child {
+  float: right;
+  width : 50%;
+  padding: 20px;
+}
+
+#float-06 p {
+  box-sizing: border-box;
+}
+
+#float-06 div p:first-child {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  border-right: 2px solid black;
+}
+
+#float-06 div p:last-child {
+  float: right;
+  padding: 20px;
+  width: 50%;
+}
+
+#float-06 div::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* -- POSITION -- */
+
+#position-01 div {
+  width: 4rem;
+  height: 4rem;
+  background-color: red;
+}
+
+#position-01 div:nth-child(even) {
+  position: relative;
+  left: 4rem;
+}
+
+#position-02 div {
+  border: 1px solid black;
+}
+
+#position-02 span:first-child {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+}
+
+#position-02 span:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+#position-02 span:nth-child(3) {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#position-02 span:nth-child(4) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#position-03 div {
+  position: relative;
+  border: 1px solid black;
+  height: 100px;
+}
+
+#position-03 span:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#position-03 span:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#position-03 span:nth-child(3) {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#position-03 span:nth-child(4) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+section#position-04 {
+    position: static;
+}
+
+#position-04 div {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+#position-05 .outer-box {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  background-color: lightgrey;
+}
+
+#position-05 .inner-box {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  background-color: darkgrey;
+}
+
+#position-05 .outer-box:first-child {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+}
+
+#position-05 .outer-box:last-child {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+}
+
+#position-05 div div {
+  position: relative;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+#position-06 div {
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#position-07 a {
+  position: fixed;
+  bottom: 0rem;
+  right: 0rem;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px 20px 5px 20px;
+  color: #fff;
+  z-index: 3;
+}
+
+#position-07 a:hover {
+  background-color: rgba(0, 0, 0, 1)
+}
+
+/* -- LAYOUT -- */
+
+#layout {
+  background-color: aqua;
+  margin: 0px;
+  box-sizing: border-box;
+  padding-top: 0px;
+  font-size: 10px;
+}
+
+#layout .wrapper {
+  margin: 0px;
+}
+
+/* -- Layout nav stuff -- */
+
+#layout nav {
+  background: lime;
+  margin: 0px;
+}
+
+#layout nav a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-right: 1px solid black;
+  height: 100%;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 0px;
+}
+
+#layout nav a:hover {
+  background-color: green;
+  margin: 0px;
+}
+
+#layout aside {
+  float: right;
+  background: darkorange;
+  position: absolute;
+  right: 0rem;
+  top: 5rem;
+  width: 25%;
+}
+
+#layout aside p {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+#layout main {
+  background-color: white;
+  margin: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#layout main p {
+  padding: 0.5rem 9rem 0rem 0.75rem;
+  margin: 0px;
+}
+
+#layout footer {
+  background-color: red;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  position: sticky;
+  bottom: 0px;
+}
