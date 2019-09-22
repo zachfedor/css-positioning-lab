@@ -144,7 +144,15 @@ bottom: 0;
 }
 #position-03 span:nth-of-type(3){
 right: 0;
-bottom: -0;
+bottom: 0;
+}
+#position-04{
+  position: static;
+}
+#position-04 div{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* All your edits should go here */
