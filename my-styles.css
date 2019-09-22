@@ -1,4 +1,249 @@
 /* Your Stylesheet */
+#display-01 div{
+  display:inline;
+  margin: 10px;
+  border: 4px solid blue;
+  }
+  #display-02 span{
+    display:block;
+    border: 4px solid red;
+  }
+#display-03 div{
+  display:inline;
+  width: 50px;
+  height: 50px;
+  border: 4px solid green;
+}
+ #display-04 div:nth-of-type(odd){
+  display:none;
+}
+#display-05 a{
+  display:block;
+  background:grey;
+  border: 4px solid gray;
+  width:50%;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+#boxmodel-01 div{
+  width: 50%;
+  padding: 70px;
+  margin: 0 auto;
+  border: 50px solid red;
+}
+#boxmodel-02 div{
+  padding: 50px;
+  border: 50px solid red;
+  width: 50%;
+  box-sizing:border-box;
+}
+#float-01 img{
+  float: left;
+  margin: 30px 30px 30px 0;
+}
+#float-02 img{
+  float: right;
+  margin: 1em 0 1em 1em;
+}
+#float-02 p{
+  text-align: justify;
+}
+#float-03 img{
+  float: left;
+  margin: 30px;
+}
+#float-03 p:last-child{
+  clear: both;
+}
+#float-04 img{
+  float: left;
+  margin: 30px;
+}
+#float-04 div{
+  background-color: rgb(79,185,227);
+  overflow: auto;
+}
+#float-05 p:nth-of-type(odd){
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+#float-05 p:nth-of-type(even){
+  float: left;
+  width: 40%;
+  padding:20px;
+  border-left: 6px solid green;
+  height: 500;
+  position: absolute;
+  left: 50%;
+}
+#float-06 p:first-of-type{
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+ #float-06 p:nth-of-type(even){
+  float: left;
+  width: 40%;
+  padding:20px;
+}
+#float-06 div{
+  padding: 10px;
+  overflow: auto;
+}
+#position-01 div{
+  background-color: red;
+  width: 60px;
+  height: 60px;
+}
+#position-01 div:nth-of-type(even){
+  position: relative;
+ left: 60px;
+}
+#position-02 div{
+  border: solid 10px green;
+}
+#position-02 span{
+  position: absolute;
+}
+#position-02 span:nth-of-type(1){
+  top:10px;
+  left:10px;
+}
+#position-02 span:nth-of-type(2){
+  top:10px;
+  right:10px;
+}
+#position-02 span:nth-of-type(4){
+  bottom:10px;
+  left:10px;
+}
+#position-02 span:nth-of-type(3){
+  bottom:10px;
+  right:10px;
+}
+#position-03 div{
+  border: solid 10px green;
+  height: 100px;
+  position: relative;
+}
+#position-03 span{
+  position: absolute;
+}
+#position-03 span:nth-of-type(1){
+left: 0;
+top: 0;
+}
+#position-03 span:nth-of-type(2){
+right: 0;
+top: 0;
+}
+#position-03 span:nth-of-type(4){
+left: 0;
+bottom: 0;
+}
+#position-03 span:nth-of-type(3){
+right: 0;
+bottom: 0;
+}
+#position-04{
+  position: static;
+}
+#position-04 div{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#position-05{
+  position:relative;
+}
+#position-05 .outer-box {
+  background-color: red;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 0;
+}
+#position-05 .outer-box:first-child{
+  left: 0;
+}
+#position-05 .outer-box:last-child{
+  right: 0;
+}
+#position-05 .inner-box{
+  width: 1rem;
+  height: 1rem;
+  background-color: blue;
+  position: relative;
+  left: 1.5rem;
+  top:1.5rem;
+}
+#position-06{
+  position:relative;
+}
+#position-06 div{
+  background-color: lavender;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#position-07 a{
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  padding: 20px;
+  margin: 10px
+}
+#position-07 a:hover{
+  color: lightpink;
+}
+#layout{
+  background-color: lightblue;
+}
+#layout #wrapper{
+  width: 85%;
+  margin: 0 auto;
+  background-color: red;
+}
+#layout nav{
+  background:lightpink;
+}
+#layout nav:after{
+  content: "";
+  clear:both;
+  display: table;
+}
+#layout nav a{
+  display: block;
+  float: left;
+  border-right: black solid 1px;
+  padding: 1rem 2rem;
+}
+#layout nav a:hover{
+  background-color: green;
+}
+#layout aside{
+  position: absolute;
+  float: right;
+  box-sizing: border-box;
+  width 10%;
+  margin-left: 25rem;
+  padding: 10px;
+  background-color: grey;
+  border-top: 10px solid purple;
+}
+#layout main{
+  margin: 2rem;
+  margin-right: 10rem;
+}
+#layout footer{
+  background-color: orange;
+  padding: 1rem 2rem;
+  position: static;
+  bottom:0;
+}
 
 /* All your edits should go here */
-
