@@ -200,5 +200,50 @@ bottom: 0;
 #position-07 a:hover{
   color: lightpink;
 }
+#layout{
+  background-color: lightblue;
+}
+#layout #wrapper{
+  width: 85%;
+  margin: 0 auto;
+  background-color: red;
+}
+#layout nav{
+  background:lightpink;
+}
+#layout nav:after{
+  content: "";
+  clear:both;
+  display: table;
+}
+#layout nav a{
+  display: block;
+  float: left;
+  border-right: black solid 1px;
+  padding: 1rem 2rem;
+}
+#layout nav a:hover{
+  background-color: green;
+}
+#layout aside{
+  position: absolute;
+  float: right;
+  box-sizing: border-box;
+  width 10%;
+  margin-left: 25rem;
+  padding: 10px;
+  background-color: grey;
+  border-top: 10px solid purple;
+}
+#layout main{
+  margin: 2rem;
+  margin-right: 10rem;
+}
+#layout footer{
+  background-color: orange;
+  padding: 1rem 2rem;
+  position: static;
+  bottom:0;
+}
 
 /* All your edits should go here */
