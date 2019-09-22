@@ -178,5 +178,17 @@ bottom: 0;
   left: 1.5rem;
   top:1.5rem;
 }
+#position-06{
+  position:relative;
+}
+#position-06 div{
+  background-color: lavender;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
 
 /* All your edits should go here */
