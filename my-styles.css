@@ -1,63 +1,275 @@
 #display-01 div {
-    display: inline; 
-    border: 1px solid blue; 
-    padding: 20px;
-  }
+  display: inline;
+  border: 1px solid blue;
+  margin: 20px;
+}
+
 #display-02 span {
-    display: block; 
-    white-space: pre-line; 
-    border: 1px solid red;
-  }
+  display: block;
+  border: 1px solid red;
+}
+
 #display-03 div {
-    display: inline-block; 
-    border: 1px solid green; 
-    height: 50px; 
-    width: 50px; 
-    padding: 80px;
-  }
-#display-04 :first-child {
-    visibility: hidden;
-  }
+  display: inline-block;
+  border: 1px solid green;
+  width: 80px;
+  height: 80px;
+}
+
+#display-04 div:first-of-type {
+  display: none;
+}
+
 #display-05 a {
-    background-color: red; 
-    display: inline-block; 
-    padding-top: 40px; 
-    width: 50%; 
-    margin-left: 25%;
-  }
+  display: block;
+  width: 50%;
+  padding: 1rem;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+
+
+/***** Box Model *****/
 #boxmodel-01 div {
-    width: 50%; 
-    padding: 10%; 
-    margin-left: 15%; 
-    border: thick solid yellow;
-  }
+  width: 50%;
+  padding: 50px;
+  margin: 0 auto;
+  border: 25px solid #222;
+}
+
 #boxmodel-02 div {
-    width: 50%; 
-    padding: 10%; 
-    margin-left: 15%; 
-    border: thick solid yellow; 
-    box-sizing: border-box;
-  }
+  width: 50%;
+  padding: 50px;
+  margin: 0 auto;
+  border: 25px solid #222;
+  box-sizing: border-box;
+}
+
+
+/***** Float *****/
 #float-01 img {
-    float: left; 
-    margin-top: 30px; 
-    margin-right: 10px;
-  }
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+
 #float-02 img {
-    float: right; 
-    margin-top: 30px; 
-    margin-left: 10px;
-  }
+  float: right;
+  margin: 1em 0 1em 1em;
+}
 #float-02 p {
-    text-align: justify;
-  }
+  text-align: justify;
+}
+
 #float-03 img {
-    float: left; 
-    margin-top: 10px; 
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+#float-03 p:last-child {
+  clear: both;
+}
+
+#float-04 img {
+  float: left;
+  margin: 1em;
+}
+#float-04 div {
+  background-color: lightblue;
+}
+#float-04 div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#float-05 p {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 2rem;
+}
+#float-05 p:last-child {
+  border-left: 1px solid #222;
+}
+
+#float-06 div p {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 2rem;
+}
+#float-06 div p:first-child {
+  border-right: 1px solid #222;
+}
+#float-06 div:after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
+/***** Position *****/
+#position-01 div {
+  background-color: red;
+  width: 3rem;
+  height: 3rem;
+}
+#position-01 div:nth-child(even) {
+  position: relative;
+  left: 3rem;
+}
 
+#position-02 div {
+  border: 1px solid #222;
+}
+#position-02 span {
+  position: absolute;
+}
+#position-02 span:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+#position-02 span:nth-of-type(2) {
+  right: 0;
+  top: 0;
+}
+#position-02 span:nth-of-type(3) {
+  right: 0;
+  bottom: 0;
+}
+#position-02 span:nth-of-type(4) {
+  left: 0;
+  bottom: 0;
+}
+
+#position-03 div {
+  border: 1px solid #222;
+  height: 100px;
+  position: relative;
+}
+#position-03 span {
+  position: absolute;
+}
+#position-03 span:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+#position-03 span:nth-of-type(2) {
+  right: 0;
+  top: 0;
+}
+#position-03 span:nth-of-type(3) {
+  right: 0;
+  bottom: 0;
+}
+#position-03 span:nth-of-type(4) {
+  left: 0;
+  bottom: 0;
+}
+
+#position-04 {
+  position: static;
+}
+#position-04 div {
+  position: absolute;
+  top: 0;
+}
+
+#position-05 {
+  position: relative;
+}
+#position-05 .outer-box {
+  width: 4rem;
+  height: 4rem;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+}
+#position-05 .outer-box:first-child {
+  left: 0;
+}
+#position-05 .outer-box:last-child {
+  right: 0;
+}
+#position-05 .inner-box {
+  width: 1rem;
+  height: 1rem;
+  background-color: #222;
+  position: relative;
+  left: 1.5rem;
+  top: 1.5rem;
+}
+
+#position-06 div {
+  background-color: lavender;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#position-07 a {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #222;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  margin-right: 2rem;
+}
+#position-07 a:hover {
+  background-color: lavender;
+  color: #222;
+}
+
+/***** Layout *****/
+#layout {
+  background-color: #44accf; 
+}
+
+#layout #wrapper {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#layout nav {
+  background-color: #b7d84b;
+}
+#layout nav:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#layout nav a {
+  display: block;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  border-right: 1px solid #91ab3b;
+  padding: 1rem 2rem;
+}
+
+#layout nav a:hover {
+  background-color: #91ab3b;
+}
+
+#layout aside {
+  float: right;
+  box-sizing: border-box;
+  width: 30%;
+  margin-left: 2rem;
+  padding: 1rem;
+  background-color: #fa8366;
+  border-top: 5px solid #f95b34;
+}
+
+#layout main {
+  margin: 2rem;
+}
+
+#layout footer {
+  background-color: #f36283;
+  padding: 1rem 2rem;
+}
